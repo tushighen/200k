@@ -47,8 +47,8 @@ mysql_query("SET character_set_results = 'utf8', character_set_client = 'utf8', 
                     <option value="2">Дулаалсан полимер</option>
                     <option value="3">Блок</option>
                     <option value="6">Бетон эрдэст хөвөн</option>
-                    <option value="7">Тоосго</option>
-                    <option value="8">Бетон</option>
+                    <option value="8">Тоосго</option>
+                    <option value="9">Бетон</option>
                 </select>
             </div>
             <br><br>
