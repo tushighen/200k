@@ -51,17 +51,37 @@
       <file leaf-file-name="calculator.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/calculator.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+            <state relative-caret-position="630">
+              <caret line="42" column="11" lean-forward="false" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
               <folding>
-                <marker date="1506275749000" expanded="true" signature="517:572" ph="select coeff... tableMaterial" />
-                <marker date="1506275749000" expanded="true" signature="517:573" ph="select coeff... tableMaterial" />
-                <marker date="1506275749000" expanded="true" signature="517:577" ph="select coeff... tableMaterial" />
-                <marker date="1506275749000" expanded="true" signature="1201:1250" ph="select hpgkw... tableNumbers" />
-                <marker date="1506275749000" expanded="true" signature="1201:1251" ph="select hpgkw... tableNumbers" />
-                <marker date="1506275749000" expanded="true" signature="1201:1252" ph="select hpgkw... tableNumbers" />
-                <marker date="1506275749000" expanded="true" signature="1201:1262" ph="select hpgkw... tableNumbers" />
+                <marker date="1506275898000" expanded="true" signature="517:572" ph="select coeff... tableMaterial" />
+                <marker date="1506275898000" expanded="true" signature="517:573" ph="select coeff... tableMaterial" />
+                <marker date="1506275898000" expanded="true" signature="517:577" ph="select coeff... tableMaterial" />
+                <marker date="1506275898000" expanded="true" signature="1201:1250" ph="select hpgkw... tableNumbers" />
+                <marker date="1506275898000" expanded="true" signature="1201:1251" ph="select hpgkw... tableNumbers" />
+                <marker date="1506275898000" expanded="true" signature="1201:1252" ph="select hpgkw... tableNumbers" />
+                <marker date="1506275898000" expanded="true" signature="1201:1262" ph="select hpgkw... tableNumbers" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dropdown.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/dropdown.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dbConnection.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/dbConnection.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="2" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="2" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -272,7 +292,7 @@
       <workItem from="1506264317714" duration="81000" />
       <workItem from="1506265178863" duration="81000" />
       <workItem from="1506266783279" duration="1909000" />
-      <workItem from="1506269772527" duration="5750000" />
+      <workItem from="1506269772527" duration="5809000" />
     </task>
     <task id="LOCAL-00001" summary="asd">
       <created>1506261396763</created>
@@ -386,11 +406,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506275087854</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="asd">
+      <created>1506275844381</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1506275844381</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13664000" />
+    <option name="totallyTimeSpent" value="13723000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1286" y="806" width="1542" height="953" extended-state="0" />
@@ -524,13 +551,13 @@
         <state relative-caret-position="165">
           <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
           <folding>
-            <marker date="1506275749000" expanded="true" signature="517:572" ph="select coeff... tableMaterial" />
-            <marker date="1506275749000" expanded="true" signature="517:573" ph="select coeff... tableMaterial" />
-            <marker date="1506275749000" expanded="true" signature="517:577" ph="select coeff... tableMaterial" />
-            <marker date="1506275749000" expanded="true" signature="1201:1250" ph="select hpgkw... tableNumbers" />
-            <marker date="1506275749000" expanded="true" signature="1201:1251" ph="select hpgkw... tableNumbers" />
-            <marker date="1506275749000" expanded="true" signature="1201:1252" ph="select hpgkw... tableNumbers" />
-            <marker date="1506275749000" expanded="true" signature="1201:1262" ph="select hpgkw... tableNumbers" />
+            <marker date="1506275898000" expanded="true" signature="517:572" ph="select coeff... tableMaterial" />
+            <marker date="1506275898000" expanded="true" signature="517:573" ph="select coeff... tableMaterial" />
+            <marker date="1506275898000" expanded="true" signature="517:577" ph="select coeff... tableMaterial" />
+            <marker date="1506275898000" expanded="true" signature="1201:1250" ph="select hpgkw... tableNumbers" />
+            <marker date="1506275898000" expanded="true" signature="1201:1251" ph="select hpgkw... tableNumbers" />
+            <marker date="1506275898000" expanded="true" signature="1201:1252" ph="select hpgkw... tableNumbers" />
+            <marker date="1506275898000" expanded="true" signature="1201:1262" ph="select hpgkw... tableNumbers" />
           </folding>
         </state>
       </provider>
@@ -633,14 +660,6 @@
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ee7d99f4-d8f2-4aaf-9cbc-aac664678e3b/console.sql" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5e144ab4-d174-4063-8d3f-15249cd1ae6f/console.sql" />
-    <entry file="file://$PROJECT_DIR$/php/dbConnection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="2" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/200k.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -653,6 +672,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/20e2eed/5e144ab4-d174-4063-8d3f-15249cd1ae6f/apartmentCalculator.tableMaterial">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/20e2eed/5e144ab4-d174-4063-8d3f-15249cd1ae6f/apartmentCalculator.tableNumbers">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/dbConnection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="2" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="2" />
           <folding />
         </state>
       </provider>
@@ -673,32 +714,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/20e2eed/5e144ab4-d174-4063-8d3f-15249cd1ae6f/apartmentCalculator.tableMaterial">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/20e2eed/5e144ab4-d174-4063-8d3f-15249cd1ae6f/apartmentCalculator.tableNumbers">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/calculator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+        <state relative-caret-position="630">
+          <caret line="42" column="11" lean-forward="false" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
           <folding>
-            <marker date="1506275749000" expanded="true" signature="517:572" ph="select coeff... tableMaterial" />
-            <marker date="1506275749000" expanded="true" signature="517:573" ph="select coeff... tableMaterial" />
-            <marker date="1506275749000" expanded="true" signature="517:577" ph="select coeff... tableMaterial" />
-            <marker date="1506275749000" expanded="true" signature="1201:1250" ph="select hpgkw... tableNumbers" />
-            <marker date="1506275749000" expanded="true" signature="1201:1251" ph="select hpgkw... tableNumbers" />
-            <marker date="1506275749000" expanded="true" signature="1201:1252" ph="select hpgkw... tableNumbers" />
-            <marker date="1506275749000" expanded="true" signature="1201:1262" ph="select hpgkw... tableNumbers" />
+            <marker date="1506275898000" expanded="true" signature="517:572" ph="select coeff... tableMaterial" />
+            <marker date="1506275898000" expanded="true" signature="517:573" ph="select coeff... tableMaterial" />
+            <marker date="1506275898000" expanded="true" signature="517:577" ph="select coeff... tableMaterial" />
+            <marker date="1506275898000" expanded="true" signature="1201:1250" ph="select hpgkw... tableNumbers" />
+            <marker date="1506275898000" expanded="true" signature="1201:1251" ph="select hpgkw... tableNumbers" />
+            <marker date="1506275898000" expanded="true" signature="1201:1252" ph="select hpgkw... tableNumbers" />
+            <marker date="1506275898000" expanded="true" signature="1201:1262" ph="select hpgkw... tableNumbers" />
           </folding>
         </state>
       </provider>
