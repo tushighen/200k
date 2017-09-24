@@ -42,12 +42,13 @@
                             </div>
                             <div class="">
                                 <select name="type">
-                                    <option value="1" selected="">Мод</option>
-                                    <option value="2" selected="">Дулаалсан полимер</option>
-                                    <option value="3" selected="">Блок</option>
-                                    <option value="6" selected="">Бетон эрдэст хөвөн</option>
-                                    <option value="8" selected="">Тоосго</option>
-                                    <option value="9" selected="">Бетонy</option>
+                                    <?php include ('php/dropdown.php')?>
+<!--                                    <option value="1">Мод</option>-->
+<!--                                    <option value="2">Дулаалсан полимер</option>-->
+<!--                                    <option value="3">Блок</option>-->
+<!--                                    <option value="6">Бетон эрдэст хөвөн</option>-->
+<!--                                    <option value="8">Тоосго</option>-->
+<!--                                    <option value="9">Бетон</option>-->
                                 </select>
                             </div>
                             <br>

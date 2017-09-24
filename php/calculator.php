@@ -7,6 +7,7 @@
 
     if (isset($_POST['calcForm'])) {
         $type = $_POST['type'];
-        echo $_GET['$type'];
+        header("Location: 200k.php?selected=$type");
+        echo $_GET['selected'];
     }
 ?>
