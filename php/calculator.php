@@ -31,7 +31,17 @@
 
         $enEv = $warmPerMonth / 31 / 24 * 1000 * (1 + $allBuild / 150) + $mvtPerMonth / 31 /24 * 1000;
         $nasosTotCosMonth = $enEv / 20 * 24 * 31 / 1000 + $enEv / 40 * $dayWorkTime * 31 / 1000;
+        $abc = (integer)$enEv;
+        $abz = round($abc, -1);
 
-        header("Location: 200k.php?selected=$type&hotwater=$nasosTotCosMonth");
+        $getPwr = mysql_query("select hpgkw as hp from tableNumbers WHERE hpgkw = $abc");
+        $row = mysql_fetch_assoc($getPwr);
+        $neededPwr = $row['hp'];
+
+        header("Location: 200k.php?selected=$type&hotwater=$neededPwr");
+
+        function abc($a) {
+
+        }
     }
 ?>
