@@ -7,6 +7,13 @@
 
     if (isset($_POST['calcForm'])) {
         $type = $_POST['type'];
-        echo $_GET['$type'];
+
+        $allBuild = $_POST['allBuild'];
+        $allSquare = $_POST['allSquare'];
+        $pplNum = $_POST['pplNum'];
+        $neededEner = $_POST['neededEner'];
+        $perPower = $_POST['perPower'];
+
+        /*echo $_GET['$type'];*/
     }
 ?>
