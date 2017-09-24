@@ -40,7 +40,7 @@ if (isset($_POST['calcForm'])) {
     $row = mysql_fetch_assoc($getPwr);
     $neededPwr = $row['hp'];
 
-    $a = 0;
+
     header("Location: 200k.php?selected=$type&hotwater=$neededPwr");
 
 }
