@@ -51,16 +51,16 @@
       <file leaf-file-name="calculator.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/calculator.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="525">
+              <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
               <folding>
-                <marker date="1506275078000" expanded="true" signature="577:632" ph="select coeff... tableMaterial" />
-                <marker date="1506275078000" expanded="true" signature="577:633" ph="select coeff... tableMaterial" />
-                <marker date="1506275078000" expanded="true" signature="577:637" ph="select coeff... tableMaterial" />
-                <marker date="1506275078000" expanded="true" signature="1245:1294" ph="select hpgkw... tableNumbers" />
-                <marker date="1506275078000" expanded="true" signature="1245:1296" ph="select hpgkw... tableNumbers" />
-                <marker date="1506275078000" expanded="true" signature="1245:1297" ph="select hpgkw... tableNumbers" />
-                <marker date="1506275078000" expanded="true" signature="1245:1302" ph="select hpgkw... tableNumbers" />
+                <marker date="1506275749000" expanded="true" signature="517:572" ph="select coeff... tableMaterial" />
+                <marker date="1506275749000" expanded="true" signature="517:573" ph="select coeff... tableMaterial" />
+                <marker date="1506275749000" expanded="true" signature="517:577" ph="select coeff... tableMaterial" />
+                <marker date="1506275749000" expanded="true" signature="1201:1250" ph="select hpgkw... tableNumbers" />
+                <marker date="1506275749000" expanded="true" signature="1201:1251" ph="select hpgkw... tableNumbers" />
+                <marker date="1506275749000" expanded="true" signature="1201:1252" ph="select hpgkw... tableNumbers" />
+                <marker date="1506275749000" expanded="true" signature="1201:1262" ph="select hpgkw... tableNumbers" />
               </folding>
             </state>
           </provider>
@@ -101,8 +101,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1658" />
-    <option name="y" value="847" />
+    <option name="x" value="1286" />
+    <option name="y" value="806" />
     <option name="width" value="1542" />
     <option name="height" value="953" />
   </component>
@@ -272,7 +272,7 @@
       <workItem from="1506264317714" duration="81000" />
       <workItem from="1506265178863" duration="81000" />
       <workItem from="1506266783279" duration="1909000" />
-      <workItem from="1506269772527" duration="5032000" />
+      <workItem from="1506269772527" duration="5750000" />
     </task>
     <task id="LOCAL-00001" summary="asd">
       <created>1506261396763</created>
@@ -379,14 +379,21 @@
       <option name="project" value="LOCAL" />
       <updated>1506273196970</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="asd">
+      <created>1506275087854</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1506275087854</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12946000" />
+    <option name="totallyTimeSpent" value="13664000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1658" y="847" width="1542" height="953" extended-state="0" />
+    <frame x="1286" y="806" width="1542" height="953" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20266667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -517,13 +524,13 @@
         <state relative-caret-position="165">
           <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
           <folding>
-            <marker date="1506275078000" expanded="true" signature="577:632" ph="select coeff... tableMaterial" />
-            <marker date="1506275078000" expanded="true" signature="577:633" ph="select coeff... tableMaterial" />
-            <marker date="1506275078000" expanded="true" signature="577:637" ph="select coeff... tableMaterial" />
-            <marker date="1506275078000" expanded="true" signature="1245:1294" ph="select hpgkw... tableNumbers" />
-            <marker date="1506275078000" expanded="true" signature="1245:1296" ph="select hpgkw... tableNumbers" />
-            <marker date="1506275078000" expanded="true" signature="1245:1297" ph="select hpgkw... tableNumbers" />
-            <marker date="1506275078000" expanded="true" signature="1245:1302" ph="select hpgkw... tableNumbers" />
+            <marker date="1506275749000" expanded="true" signature="517:572" ph="select coeff... tableMaterial" />
+            <marker date="1506275749000" expanded="true" signature="517:573" ph="select coeff... tableMaterial" />
+            <marker date="1506275749000" expanded="true" signature="517:577" ph="select coeff... tableMaterial" />
+            <marker date="1506275749000" expanded="true" signature="1201:1250" ph="select hpgkw... tableNumbers" />
+            <marker date="1506275749000" expanded="true" signature="1201:1251" ph="select hpgkw... tableNumbers" />
+            <marker date="1506275749000" expanded="true" signature="1201:1252" ph="select hpgkw... tableNumbers" />
+            <marker date="1506275749000" expanded="true" signature="1201:1262" ph="select hpgkw... tableNumbers" />
           </folding>
         </state>
       </provider>
@@ -682,16 +689,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/calculator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state relative-caret-position="525">
+          <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
           <folding>
-            <marker date="1506275078000" expanded="true" signature="577:632" ph="select coeff... tableMaterial" />
-            <marker date="1506275078000" expanded="true" signature="577:633" ph="select coeff... tableMaterial" />
-            <marker date="1506275078000" expanded="true" signature="577:637" ph="select coeff... tableMaterial" />
-            <marker date="1506275078000" expanded="true" signature="1245:1294" ph="select hpgkw... tableNumbers" />
-            <marker date="1506275078000" expanded="true" signature="1245:1296" ph="select hpgkw... tableNumbers" />
-            <marker date="1506275078000" expanded="true" signature="1245:1297" ph="select hpgkw... tableNumbers" />
-            <marker date="1506275078000" expanded="true" signature="1245:1302" ph="select hpgkw... tableNumbers" />
+            <marker date="1506275749000" expanded="true" signature="517:572" ph="select coeff... tableMaterial" />
+            <marker date="1506275749000" expanded="true" signature="517:573" ph="select coeff... tableMaterial" />
+            <marker date="1506275749000" expanded="true" signature="517:577" ph="select coeff... tableMaterial" />
+            <marker date="1506275749000" expanded="true" signature="1201:1250" ph="select hpgkw... tableNumbers" />
+            <marker date="1506275749000" expanded="true" signature="1201:1251" ph="select hpgkw... tableNumbers" />
+            <marker date="1506275749000" expanded="true" signature="1201:1252" ph="select hpgkw... tableNumbers" />
+            <marker date="1506275749000" expanded="true" signature="1201:1262" ph="select hpgkw... tableNumbers" />
           </folding>
         </state>
       </provider>
