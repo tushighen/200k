@@ -7,7 +7,13 @@
 
     if (isset($_POST['calcForm'])) {
         $type = $_POST['type'];
-        header("Location: 200k.php?selected=$type");
-        echo $_GET['selected'];
+
+        $allBuild = $_POST['allBuild'];
+        $allSquare = $_POST['allSquare'];
+        $pplNum = $_POST['pplNum'];
+        $neededEner = $_POST['neededEner'];
+        $perPower = $_POST['perPower'];
+
+        /*echo $_GET['$type'];*/
     }
 ?>
