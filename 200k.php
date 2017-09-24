@@ -47,7 +47,7 @@
                                     <option value="3" selected="">Блок</option>
                                     <option value="6" selected="">Бетон эрдэст хөвөн</option>
                                     <option value="8" selected="">Тоосго</option>
-                                    <option value="9" selected="">Бетон</option>
+                                    <option value="9" selected="">Бетонy</option>
                                 </select>
                             </div>
                             <br>
