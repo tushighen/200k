@@ -22,23 +22,23 @@
                         <form action="200k.php" method="post">
                             <div class="form-group">
                                 <label>Нийт барилгын тоо</label>
-                                <input type="text" class="form-control" name="allBuild" value="" placeholder="0">
+                                <input type="text" class="form-control" name="allBuild" value="1" placeholder="0">
                             </div>
                             <div class="form-group">
                                 <label>Нийт талбай кв.м</label>
-                                <input type="text" class="form-control" name="allSquare" value="" placeholder="0">
+                                <input type="text" class="form-control" name="allSquare" value="90" placeholder="0">
                             </div>
                             <div class="form-group">
                                 <label>Нийт оршин суугчдын тоо</label>
-                                <input type="text" class="form-control" name="pplNum" value="" placeholder="0">
+                                <input type="text" class="form-control" name="pplNum" value="200" placeholder="0">
                             </div>
                             <div class="form-group">
                                 <label>Халаалтйн системд шаардагдах хэм</label>
-                                <input type="text" class="form-control" name="neededEner" value="" placeholder="0">
+                                <input type="text" class="form-control" name="neededEner" value="55" placeholder="0">
                             </div>
                             <div class="form-group">
                                 <label>Тухайн объектын хэрэглэх 1 кВт эрчим хүчний үнэ</label>
-                                <input type="text" class="form-control" name="perPower" value="" placeholder="1">
+                                <input type="text" class="form-control" name="perPower" value="128" placeholder="0">
                             </div>
                             <div class="">
                                 <select name="type">

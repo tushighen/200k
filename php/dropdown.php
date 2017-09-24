@@ -58,8 +58,8 @@ switch ($var) {
         break;
     default:
         echo '
-                <option value="1" >Мод</option>
-                <option value="2" >Дулаалсан полимер</option>
+                <option value="1" selected>Мод</option>
+                <option value="2">Дулаалсан полимер</option>
                 <option value="3">Блок</option>
                 <option value="6">Бетон эрдэст хөвөн</option>
                 <option value="8">Тоосго</option>
