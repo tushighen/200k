@@ -12,23 +12,23 @@
         <form action="200k.php" method="post">
             <div class="form-group">
                 <label>Нийт барилгын тоо</label>
-                <input type="text" class="form-control" value="0">
+                <input type="text" class="form-control" name="allBuild" value="0">
             </div>
             <div class="form-group">
                 <label>Нийт талбай кв.м</label>
-                <input type="text" class="form-control" value="0">
+                <input type="text" class="form-control" name="allSquare" value="0">
             </div>
             <div class="form-group">
                 <label>Нийт оршин суугчдын тоо</label>
-                <input type="text" class="form-control" value="0">
+                <input type="text" class="form-control" name="pplNum" value="0">
             </div>
             <div class="form-group">
                 <label>Халаалтйн системд шаардагдах хэм</label>
-                <input type="text" class="form-control" value="0">
+                <input type="text" class="form-control" name="neededEner" value="0">
             </div>
             <div class="form-group">
                 <label>Тухайн объектын хэрэглэх 1 кВт эрчим хүчний үнэ</label>
-                <input type="text" class="form-control" value="0">
+                <input type="text" class="form-control" name="perPower" value="0">
             </div>
             <div class="dropdown">
                 <select name="type">
