@@ -1,14 +1,4 @@
-<?php
-$link = mysql_connect("localhost", "root", "");
-if (!$link) {
-    die ('Could not connect: ' . mysql_error());
-}
-$db = mysql_select_db("apartmentCalculator");
-if (!$db) {
-    die ('Could not select db: ' . mysql_error());
-}
-mysql_query("SET character_set_results = 'utf8', character_set_client = 'utf8', character_set_connection = 'utf8', character_set_database = 'utf8', character_set_server = 'utf8'", $link);
-?>
+<?php include('php/dbConnection.php') ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -34,14 +24,13 @@ mysql_query("SET character_set_results = 'utf8', character_set_client = 'utf8', 
             </div>
             <div class="form-group">
                 <label>Халаалтйн системд шаардагдах хэм</label>
-                <input type="text" class="form-control"  value="0">
+                <input type="text" class="form-control" value="0">
             </div>
             <div class="form-group">
                 <label>Тухайн объектын хэрэглэх 1 кВт эрчим хүчний үнэ</label>
                 <input type="text" class="form-control" value="0">
             </div>
             <div class="dropdown">
-
                 <select name="type">
                     <option value="1">Мод</option>
                     <option value="2">Дулаалсан полимер</option>
