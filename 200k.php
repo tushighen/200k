@@ -38,7 +38,7 @@
                             </div>
                             <div class="form-group">
                                 <label>Тухайн объектын хэрэглэх 1 кВт эрчим хүчний үнэ</label>
-                                <input type="text" class="form-control" name="perPower" value="" placeholder="0">
+                                <input type="text" class="form-control" name="perPower" value="" placeholder="1">
                             </div>
                             <div class="">
                                 <select name="type">
@@ -48,7 +48,7 @@
 <!--                                    <option value="3">Блок</option>-->
 <!--                                    <option value="6">Бетон эрдэст хөвөн</option>-->
 <!--                                    <option value="8">Тоосго</option>-->
-<!--                                    <option value="9">Бетон</option>-->>
+<!--                                    <option value="9">Бетон</option>-->
                                 </select>
                             </div>
                             <br>
