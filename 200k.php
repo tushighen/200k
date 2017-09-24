@@ -43,12 +43,12 @@ mysql_query("SET character_set_results = 'utf8', character_set_client = 'utf8', 
             <div class="dropdown">
 
                 <select name="type">
-                    <option value="tree">Мод</option>
-                    <option value="dulalsan_polimer">Дулаалсан полимер</option>
-                    <option value="block">Блок</option>
-                    <option value="beton_erdest">Бетон эрдэст хөвөн</option>
-                    <option value="toosgo">Тоосго</option>
-                    <option value="beton">Бетон</option>
+                    <option value="1">Мод</option>
+                    <option value="2">Дулаалсан полимер</option>
+                    <option value="3">Блок</option>
+                    <option value="6">Бетон эрдэст хөвөн</option>
+                    <option value="7">Тоосго</option>
+                    <option value="8">Бетон</option>
                 </select>
             </div>
             <br><br>
