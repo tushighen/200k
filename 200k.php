@@ -37,7 +37,7 @@ mysql_query("SET character_set_results = 'utf8', character_set_client = 'utf8', 
                 <input type="text" class="form-control"  value="0">
             </div>
             <div class="form-group">
-                <label>Тухайн объектын хэрэглэх 1000 кВт эрчим хүчний үнэ</label>
+                <label>Тухайн объектын хэрэглэх 1 кВт эрчим хүчний үнэ</label>
                 <input type="text" class="form-control" value="0">
             </div>
             <div class="dropdown">
