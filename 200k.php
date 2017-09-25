@@ -51,6 +51,7 @@
 <!--                                    <option value="9">Бетон</option>-->
                                 </select>
                             </div>
+                            <input type="text">
                             <br>
                             <button name="calcForm" type="submit" class="btn btn-primary">Submit</button>
                         </form>

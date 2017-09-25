@@ -40,8 +40,12 @@ if (isset($_POST['calcForm'])) {
     $row = mysql_fetch_assoc($getPwr);
     $neededPwr = $row['hp'];
 
+    $getHeatPumpCost = mysql_query("select price as price from tableNumbers WHERE Hpgkw = '$neededPwr'");
+    $row = mysql_fetch_assoc($getHeatPumpCost);
+    $heatPumpCost = $row['price'];
 
-    header("Location: 200k.php?selected=$type&hotwater=$neededPwr");
 
+
+    header("Location: 200k.php?selected=$type&hotwater=$heatPumpCost");
 }
 ?>
