@@ -81,10 +81,9 @@
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="24" parent="10" name="pyaRoll">
+    <column id="24" parent="10" name="payRoll">
       <Position>9</Position>
-      <DataType>int(11)|0</DataType>
-      <NotNull>1</NotNull>
+      <DataType>double|0</DataType>
     </column>
     <column id="25" parent="10" name="model">
       <Position>10</Position>

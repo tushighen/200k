@@ -30,7 +30,7 @@ if (isset($_POST['calcForm'])) {
 
     $e19 = $spentWaterInaMonth / 1000 * $constHotWaterPower; // Семья из 3 чел. в день 237 л. e19
 
-    $mvtPerMonth = $e19 * 1.163; //c19
+    $mvtPerMonth = $e19 * 1.163; //c19 //true
 
     $enEv = $warmPerMonth / 31 / 24 * 1000 * (1 + $allBuild / 150) + $mvtPerMonth / 31 / 24 * 1000; //c15
     $nasosTotCosMonth = $enEv / 20 * 24 * 31 / 1000 + $enEv / 40 * $dayWorkTime * 31 / 1000; //c21
@@ -63,8 +63,33 @@ if (isset($_POST['calcForm'])) {
 
     $techRoomEqMnt = $techRoomEqUsd * $usdValue / 1000000; //c31
 
-    
+    $powerHotWater = $mvtPerMonth / $constNasosPow; //c32
 
-    header("Location: 200k.php?selected=$type&hotwater=$techRoomEqMnt");
+    $energyConsume = $neededPwr / $constNasosPow * $dayWorkTime * 30 / 1000; //c33
+
+    $hotWaterTotalAnnualMnt = ($powerHotWater * 1000 * $perPower * 12 + $nasosTotCosMonth * 1000 * $perPower * 12
+        + $energyConsume * $perPower * 8 * 1000) / 1000000; //c34
+
+    $hotWaterTotalAnnualUsd = $hotWaterTotalAnnualMnt * 1000000 / $usdValue; //e34
+
+    $energyConsumption = $enEv / $constNasosPow + $nasosTotCosMonth / 30 / 24; //c35
+
+    $setCostMnt = $heatPumpCostMNT + $holeTotalCostMnt + $techRoomEqMnt; //c39
+
+    $setCostUsd = $setCostMnt * 1000000 / $usdValue; //e39
+
+    $getInstallFee = mysql_query("select payRoll as pay from tableNumbers WHERE Hpgkw = '$neededPwr'");
+    $row = mysql_fetch_assoc($getInstallFee);
+    $installFeeUsd = $row['pay']; // e40
+
+    $installFeeMnt = $installFeeUsd * $usdValue / 1000000; //c40
+
+    $totalMnt = $setCostMnt + $installFeeMnt; //c41
+
+    $totalUsd = $setCostUsd + $installFeeUsd; //e41
+
+    $getInstallTotalTime = mssql_query("select boilerRoom as boil from tableNumbers WHERE m2 = ");
+
+    header("Location: 200k.php?selected=$type&hotwater=$totalUsd");
 }
 ?>
