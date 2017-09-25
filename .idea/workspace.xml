@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71772e13-a00d-442c-93da-b6085364a988" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apartmentCalculator.sql" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/200k.php" afterPath="$PROJECT_DIR$/200k.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/table.php" afterPath="$PROJECT_DIR$/php/table.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -376,7 +375,7 @@
       <workItem from="1506266783279" duration="1909000" />
       <workItem from="1506269772527" duration="6549000" />
       <workItem from="1506328818315" duration="701000" />
-      <workItem from="1506338077624" duration="17871000" />
+      <workItem from="1506338077624" duration="17894000" />
     </task>
     <task id="LOCAL-00001" summary="asd">
       <created>1506261396763</created>
@@ -560,11 +559,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506361607000</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="asd">
+      <created>1506362580105</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1506362580105</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39564000" />
+    <option name="totallyTimeSpent" value="39587000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -577,10 +583,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1598" height="1800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25314182" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20051414" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20051414" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18059126" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
