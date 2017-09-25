@@ -5,6 +5,8 @@ $constHotWaterPower = 0.0467;
 $constColdWaterFromTheEarth = 5;
 $constDHWWater = 50;
 
+$constNasosPow = 3.5;
+
 if (isset($_POST['calcForm'])) {
 
     $allBuild = $_POST['allBuild'];
@@ -51,7 +53,18 @@ if (isset($_POST['calcForm'])) {
     $row = mysql_fetch_assoc($getNeededHoleNum);
     $neededHoleNum = $row['hole'];
 
+    $holeTotalCostUsd = $neededHoleNum * 7000;
 
-    header("Location: 200k.php?selected=$type&hotwater=$heatPumpCost");
+    $holeTotalCostMnt = $holeTotalCostUsd * $usdValue / 1000000;
+
+    $getTechRoomEq = mysql_query("select boilerRoom as boil from tableNumbers WHERE Hpgkw = '$neededPwr'");
+    $row = mysql_fetch_assoc($getTechRoomEq);
+    $techRoomEqUsd = $row['boil'];
+
+    $techRoomEqMnt = $techRoomEqUsd * $usdValue / 1000000;
+
+    
+
+    header("Location: 200k.php?selected=$type&hotwater=$techRoomEqMnt");
 }
 ?>

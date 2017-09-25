@@ -30,7 +30,7 @@
                             </div>
                             <div class="form-group">
                                 <label>Нийт оршин суугчдын тоо</label>
-                                <input type="text" class="form-control" name="pplNum" value="200" placeholder="0">
+                                <input type="text" class="form-control" name="pplNum" value="900" placeholder="0">
                             </div>
                             <div class="form-group">
                                 <label>Халаалтйн системд шаардагдах хэм</label>
@@ -46,11 +46,17 @@
                                         <?php include('php/dropdown.php') ?>
                                     </select>
                                 </div>
-                                <div class="col-md-6">
-                                    <input type="text" class="form-control" name="usdValue" value="2450" placeholder="USD/$">
+                                <br class="visible-xs">
+                                <div class="col-md-6 has-success">
+                                    <div class="input-group">
+                                        <span class="input-group-addon">$</span>
+                                        <input type="text" class="form-control" name="usdValue" value="2450"
+                                               placeholder="USD/$">
+                                    </div>
+
                                 </div>
                             </div>
-<!--                            <br>-->
+                            <!--                            <br>-->
                             <button name="calcForm" type="submit" class="btn btn-primary">Submit</button>
                         </form>
                     </div>
