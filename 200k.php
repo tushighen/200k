@@ -40,24 +40,22 @@
                                 <label>Тухайн объектын хэрэглэх 1 кВт эрчим хүчний үнэ</label>
                                 <input type="text" class="form-control" name="perPower" value="128" placeholder="0">
                             </div>
-                            <div class="">
-                                <select name="type">
-                                    <?php include ('php/dropdown.php')?>
-<!--                                    <option value="1">Мод</option>-->
-<!--                                    <option value="2">Дулаалсан полимер</option>-->
-<!--                                    <option value="3">Блок</option>-->
-<!--                                    <option value="6">Бетон эрдэст хөвөн</option>-->
-<!--                                    <option value="8">Тоосго</option>-->
-<!--                                    <option value="9">Бетон</option>-->
-                                </select>
+                            <div class="form-group row">
+                                <div class="col-md-6">
+                                    <select name="type" class="form-control">
+                                        <?php include('php/dropdown.php') ?>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" name="usdValue" placeholder="USD/$">
+                                </div>
                             </div>
-                            <input type="text">
-                            <br>
+<!--                            <br>-->
                             <button name="calcForm" type="submit" class="btn btn-primary">Submit</button>
                         </form>
                     </div>
                 </div>
-                <?php include('php/calculator.php')?>
+                <?php include('php/calculator.php') ?>
             </div>
         </div>
         <div class="col-md-6">

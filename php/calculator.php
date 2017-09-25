@@ -44,8 +44,6 @@ if (isset($_POST['calcForm'])) {
     $row = mysql_fetch_assoc($getHeatPumpCost);
     $heatPumpCost = $row['price'];
 
-
-
     header("Location: 200k.php?selected=$type&hotwater=$heatPumpCost");
 }
 ?>
