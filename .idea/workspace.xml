@@ -30,6 +30,12 @@
         <item name="apartmentCalculator@localhost" type="e3449647:DbNodeDescriptor" />
         <item name="apartmentCalculator" type="e3449647:DbNodeDescriptor" />
       </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="apartmentCalculator@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="apartmentCalculator" type="e3449647:DbNodeDescriptor" />
+        <item name="tableNumbers" type="e3449647:DbNodeDescriptor" />
+      </path>
     </expand>
     <select />
   </component>
@@ -54,13 +60,23 @@
       <file leaf-file-name="calculator.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/calculator.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state relative-caret-position="400">
+              <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
               <folding>
-                <marker date="1506329926473" expanded="true" signature="553:608" ph="select coeff... tableMaterial" />
-                <marker date="1506329926473" expanded="true" signature="1237:1288" ph="select hpgkw... tableNumbers" />
-                <marker date="1506329926473" expanded="true" signature="1405:1471" ph="select price... tableNumbers" />
+                <marker date="1506330584314" expanded="true" signature="553:608" ph="select coeff... tableMaterial" />
+                <marker date="1506330584314" expanded="true" signature="1237:1288" ph="select hpgkw... tableNumbers" />
+                <marker date="1506330584314" expanded="true" signature="1405:1471" ph="select price... tableNumbers" />
+                <marker date="1506330584314" expanded="true" signature="1653:1723" ph="select pcsBo... tableNumbers" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tableNumbers" pinned="false" current-in-tab="false">
+        <entry file="das://table:/b6e231f1/5e144ab4-d174-4063-8d3f-15249cd1ae6f/apartmentCalculator.tableNumbers">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -92,10 +108,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1658" />
-    <option name="y" value="847" />
-    <option name="width" value="1542" />
-    <option name="height" value="953" />
+    <option name="width" value="1378" />
+    <option name="height" value="780" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -504,11 +518,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506275903373</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="asd">
+      <created>1506329960336</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1506329960336</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15263000" />
+    <option name="totallyTimeSpent" value="15905000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -562,7 +583,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5e144ab4-d174-4063-8d3f-15249cd1ae6f/console.sql" />
     <entry file="das://table:/20e2eed/5e144ab4-d174-4063-8d3f-15249cd1ae6f/apartmentCalculator.tableMaterial" />
     <entry file="file://$PROJECT_DIR$/php/dbConnection.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -654,9 +674,10 @@
         <state relative-caret-position="165">
           <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
           <folding>
-            <marker date="1506329926473" expanded="true" signature="553:608" ph="select coeff... tableMaterial" />
-            <marker date="1506329926473" expanded="true" signature="1237:1288" ph="select hpgkw... tableNumbers" />
-            <marker date="1506329926473" expanded="true" signature="1405:1471" ph="select price... tableNumbers" />
+            <marker date="1506330584314" expanded="true" signature="553:608" ph="select coeff... tableMaterial" />
+            <marker date="1506330584314" expanded="true" signature="1237:1288" ph="select hpgkw... tableNumbers" />
+            <marker date="1506330584314" expanded="true" signature="1405:1471" ph="select price... tableNumbers" />
+            <marker date="1506330584314" expanded="true" signature="1653:1723" ph="select pcsBo... tableNumbers" />
           </folding>
         </state>
       </provider>
@@ -814,18 +835,6 @@
       </provider>
     </entry>
     <entry file="das://table:/20e2eed/5e144ab4-d174-4063-8d3f-15249cd1ae6f/apartmentCalculator.tableNumbers" />
-    <entry file="file://$PROJECT_DIR$/php/calculator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding>
-            <marker date="1506329926473" expanded="true" signature="553:608" ph="select coeff... tableMaterial" />
-            <marker date="1506329926473" expanded="true" signature="1237:1288" ph="select hpgkw... tableNumbers" />
-            <marker date="1506329926473" expanded="true" signature="1405:1471" ph="select price... tableNumbers" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/200k.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -833,6 +842,26 @@
           <folding>
             <marker date="1506329835801" expanded="true" signature="3085:3115" ph="..." />
             <marker date="1506329835801" expanded="true" signature="3181:3197" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/b6e231f1/5e144ab4-d174-4063-8d3f-15249cd1ae6f/apartmentCalculator.tableNumbers">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/calculator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+          <folding>
+            <marker date="1506330584314" expanded="true" signature="553:608" ph="select coeff... tableMaterial" />
+            <marker date="1506330584314" expanded="true" signature="1237:1288" ph="select hpgkw... tableNumbers" />
+            <marker date="1506330584314" expanded="true" signature="1405:1471" ph="select price... tableNumbers" />
+            <marker date="1506330584314" expanded="true" signature="1653:1723" ph="select pcsBo... tableNumbers" />
           </folding>
         </state>
       </provider>

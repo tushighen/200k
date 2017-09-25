@@ -47,6 +47,11 @@ if (isset($_POST['calcForm'])) {
 
     $heatPumpCostMNT = $heatPumpCost*$usdValue/1000000;
 
+    $getNeededHoleNum = mysql_query("select pcsBorHole as hole from tableNumbers WHERE Hpgkw = '$neededPwr'");
+    $row = mysql_fetch_assoc($getNeededHoleNum);
+    $neededHoleNum = $row['hole'];
+
+
     header("Location: 200k.php?selected=$type&hotwater=$heatPumpCost");
 }
 ?>
