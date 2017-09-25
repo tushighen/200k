@@ -12,6 +12,7 @@ if (isset($_POST['calcForm'])) {
     $pplNum = $_POST['pplNum'];
     $neededEner = $_POST['neededEner'];
     $perPower = $_POST['perPower'];
+    $usdValue = $_POST['usdValue'];
 
     $dayWorkTime = 12;
 
@@ -43,6 +44,13 @@ if (isset($_POST['calcForm'])) {
     $getHeatPumpCost = mysql_query("select price as price from tableNumbers WHERE Hpgkw = '$neededPwr'");
     $row = mysql_fetch_assoc($getHeatPumpCost);
     $heatPumpCost = $row['price'];
+
+    $heatPumpCostMNT = $heatPumpCost*$usdValue/1000000;
+
+    $getNeededHoleNum = mysql_query("select pcsBorHole as hole from tableNumbers WHERE Hpgkw = '$neededPwr'");
+    $row = mysql_fetch_assoc($getNeededHoleNum);
+    $neededHoleNum = $row['hole'];
+
 
     header("Location: 200k.php?selected=$type&hotwater=$heatPumpCost");
 }
