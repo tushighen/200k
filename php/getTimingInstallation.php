@@ -101,6 +101,7 @@ function getTimingInstallation($m2)
         $returnValue = 49;
     else
         $returnValue = 50;
+    return $returnValue;
 }
 
 ?>
