@@ -8,7 +8,6 @@ $constDHWWater = 50; //c17
 $constNasosPow = 3.5; //f33
 
 if (isset($_POST['calcForm'])) {
-//    include('php/variables.php');
 
     $allBuild = $_POST['allBuild']; //c7
     $allSquare = $_POST['allSquare']; //c8
@@ -126,10 +125,8 @@ if (isset($_POST['calcForm'])) {
 
         $repayment = $totalMnt / $savingEco; //c55
 
-        header("Location: 200k.php?c27=$neededPwr&c28=$heatPumpCostMNT&e28=$heatPumpCost&c29=$neededHoleNum&c30=$holeTotalCostMnt&e30=$holeTotalCostUsd");
-        $_POST['c31'] = $techRoomEqMnt;
-        $_POST['e31'] = $techRoomEqUsd;
-        $_SESSION['c27'] = $neededPwr;
+//        header("Location: 200k.php?selected=$type&hotwater=$repayment");
+        $_SESSION['type'] = $type;
     }
 }
 ?>
