@@ -7,6 +7,7 @@ if (!isset($_SESSION['type'])) {
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>CEPHEUS</title>
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css"/>
     <link rel="stylesheet" href="css/200k.css" type="text/css"/>
 </head>
@@ -26,7 +27,7 @@ if (!isset($_SESSION['type'])) {
         <div class="col-md-6">
             <div class="panel panel-info">
                 <div class="panel-heading">
-                    <h3 class="panel-title">Input</h3>
+                    <h3 class="panel-title">Өгөгдөл</h3>
                 </div>
                 <div class="panel-body">
                     <form action="200k.php" method="post">
@@ -67,7 +68,7 @@ if (!isset($_SESSION['type'])) {
                             </div>
                         </div>
                         <!--                            <br>-->
-                        <button name="calcForm" type="submit" class="btn btn-primary">Submit</button>
+                        <button name="calcForm" type="submit" class="btn btn-primary">Тооцоолох</button>
                     </form>
                 </div>
             </div>
@@ -76,18 +77,7 @@ if (!isset($_SESSION['type'])) {
         <div class="col-md-6">
             <div class="table-responsive">
                 <table class="table table-bordered">
-                    <thead>
-                    <tr>
-                        <th>Предложение</th>
-                        <th></th>
-                        <th>Единицы измерения</th>
-                        <th></th>
-                        <th></th>
-                    </tr>
-                    </thead>
-                    <tbody>
                     <?php include_once('php/table.php') ?>
-                    </tbody>
                 </table>
             </div>
         </div>
