@@ -47,7 +47,7 @@
                                     </select>
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" class="form-control" name="usdValue" placeholder="USD/$">
+                                    <input type="text" class="form-control" name="usdValue" value="2450" placeholder="USD/$">
                                 </div>
                             </div>
 <!--                            <br>-->
