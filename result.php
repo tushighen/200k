@@ -1,5 +1,9 @@
 <?php include('php/dbConnection.php'); ?>
 <?php include('php/calculator.php'); ?>
+<?php
+if (!isset($_SESSION))
+    echo '<script>window.location.replace("calculator.php");</script>';
+?>
 <!DOCTYPE html>
 <html lang="en">
 

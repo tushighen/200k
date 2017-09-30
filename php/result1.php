@@ -19,6 +19,14 @@ $n;
 $n1 = $_SESSION['connectedPwrObj1']; //c43
 $n2 = $_SESSION['connectedPwrObj2']; //e43
 
+$j1= round($j1,1);
+$k1= round($k1,1);
+$m1= round($m1,1);
+$n1= round($n1,1);
+$n2= round($n2,1);
+
+
+
 if (!isset($_GET['lang'])) {
 
     $j = "Иж бүрдлийн үнэ";
@@ -36,19 +44,6 @@ if (!isset($_GET['lang'])) {
     $ext6 = "долоо хоног";
     $ext7 = "жил";
 
-// Translate Material Name
-    if($aa == "tree")
-        $aa = "Мод";
-    elseif ($aa == "Warm Pol")
-        $aa = "Дулаалсан полимер";
-    elseif ($aa == "Block")
-        $aa = "Блок";
-    elseif ($aa == "beton erdest huvun")
-        $aa = "Бетон эрдэст хөвөн";
-    elseif ($aa == "toosgo")
-        $aa = "Тоосго";
-    else
-        $aa = "Бетон";
 
 } else {
     if ($_GET['lang'] == "ru") {
@@ -69,19 +64,6 @@ if (!isset($_GET['lang'])) {
         $ext6 = "недель";
         $ext7 = "лет";
 
-// Translate Material Name
-        if($aa == "tree")
-            $aa = "Дерево";
-        elseif ($aa == "Warm Pol")
-            $aa = "Утеплен полимер";
-        elseif ($aa == "Block")
-            $aa = "Теплоблок";
-        elseif ($aa == "beton erdest huvun")
-            $aa = "Бетон минвата";
-        elseif ($aa == "toosgo")
-            $aa = "Кирпич";
-        else
-            $aa = "Бетон";
     } else {
 
         $j = "Whole system price";
@@ -97,19 +79,6 @@ if (!isset($_GET['lang'])) {
         $ext6 = "week(s)";
         $ext7 = "years";
 
-// Translate Material Name
-        if($aa == "tree")
-            $aa = "Wood ";
-        elseif ($aa == "Warm Pol")
-            $aa = "";
-        elseif ($aa == "Block")
-            $aa = "";
-        elseif ($aa == "beton erdest huvun")
-            $aa = "";
-        elseif ($aa == "toosgo")
-            $aa = "";
-        else
-            $aa = "";
     }
 }
 echo "
@@ -168,7 +137,7 @@ echo "
     <h6>$n1</h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$n2</h6>
+    <h6>$n2 $ext1</h6>
 </div>
 </div>
 ";

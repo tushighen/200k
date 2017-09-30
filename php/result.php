@@ -33,14 +33,19 @@ $h1 = $_SESSION['hotWaterTotalAnnualUsd']; //e34
 $i;
 $i1 = $_SESSION['energyConsumption']; //c35
 
-$o;
-$o1 = $_SESSION['annualCostOfHeat']; //c51
-$s;
-$s1 = $_SESSION['annualTerminalOfHeatUsd']; //c52
-$r;
-$r1 = $_SESSION['savingEcoUsd']; //c53
-$p;
-$p1 = $_SESSION['repayment']; //c54
+$a1=round($a1,1);
+$b1=round($b1,1);
+$c1=round($c1,1);
+$d1=round($d1,1);
+$e1=round($e1,1);
+$g1=round($g1,1);
+$f1=round($f1,1);
+$h1=round($h1,1);
+$i1=round($i1,1);
+
+
+
+
 //$q;
 //$q1 = $_SESSION[''];
 if (!isset($_GET['lang'])) {
@@ -53,15 +58,7 @@ if (!isset($_GET['lang'])) {
     $f = "Халаалтын улиралд халаалтанд зарцуулах эрчим хүч";
     $h = "Халуун ус, халаалтын бүтэн жилийн зардал";
     $i = "Тодорхойлогдсон эрчим хүчний зарцуулалт";
-    $j = "Иж бүрдлийн үнэ";
-    $k = "Суурилуулалтын ажлын хөлс";
-    $l = "Нийт";
-    $m = "Суурилуулалтын нийт хугацаа";
-    $n = "Объектод холбогдсон байх ёстой эрчим хүч";
-    $o = "Цахилгаан халаалтын жилийн зардал";
-    $s = "Гүний дулааны халаалтын жилийн зардал";
-    $r = "Эдийн засгийн бодит хэмнэлт 1 жилд";
-    $p = "Хөрөнгө оруулалт эргэн төлөгдөх хугацаа";
+
 
 // 3rd row begin here!
     $ext1 = "кВт";
@@ -96,15 +93,7 @@ if (!isset($_GET['lang'])) {
         $g = "Расходы на отопление в сезон за месяц";
         $h = "Оплата за электроэнергию в год на ГВС и отопление";
         $i = "Номинальное электро потребление";
-        $j = "Стоимость системы";
-        $k = "Работа по установке системы на объекте";
-        $l = "Итого";
-        $m = "Срок монтажа котельной";
-        $n = "Требуется подключение электро снабжения ";
-        $o = "Расходы на отоплении электробойлерами год";
-        $s = "Расходы на GeoThermal год";
-        $r = "Экономический эффект по сравнению с электрокотлом";
-        $p = "Срок окупаемости системы по сравнению с электрокотлом";
+
 
 
         $ext1 = "кВт";
@@ -137,15 +126,7 @@ if (!isset($_GET['lang'])) {
         $g = "Electricity consumption for heating in the season";
         $h = "Hot water and heating total cost";
         $i = "Nominal electricity consumption";
-        $j = "Whole system price";
-        $k = "Installation and setup cost";
-        $l = "TOTAL";
-        $m = "Timeframes";
-        $n = "Power reqquirements for the property";
-        $o = "Annual cost of electrical heating";
-        $s = "Annual cost of geothermal heating";
-        $r = "Tangible economy per year";
-        $p = "Initial investment return in";
+
 
         $ext1 = "kWt";
         $ext3 = "pcs";
@@ -169,18 +150,6 @@ if (!isset($_GET['lang'])) {
             $aa = "";
     }
 }
-//<div class=\"uk-width-1-6@m\">
-//    <h6>$ab м2</h6>
-//</div>
-//<div class=\"uk-width-1-6@m\">
-//    <h6>$ac хүн амтай</h6>
-//</div>
-//<div class=\"uk-width-1-6@m\">
-//    <h6>$ad 1 барилгыг</h6>
-//</div>
-//<div class=\"uk-width-1-6@m\">
-//    <h6>$ae оС хэмд халаахад</h6>
-//</div>
 echo "
 <div class=\"uk-grid-small uk-child-width-1 - 4@s uk-flex-center \" uk-grid>
 <div class=\"uk-width-expand@m\">
