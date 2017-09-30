@@ -9,7 +9,7 @@ if (!isset($_SESSION['type'])) {
     <meta charset="UTF-8">
     <title>CEPHEUS</title>
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css"/>
-    <link rel="stylesheet" href="css/200k.css" type="text/css"/>
+    <link rel="stylesheet" href="css/mongol_tulsh.css" type="text/css"/>
 </head>
 <body>
 

@@ -125,7 +125,7 @@ if (isset($_POST['calcForm'])) {
 
         $repayment = $totalMnt / $savingEco; //c55
 
-//        header("Location: 200k.php?selected=$type&hotwater=$repayment");
+        header("Location: 200k.php?selected=$type&hotwater=$repayment");
         $_SESSION['type'] = $type;
     }
 }
