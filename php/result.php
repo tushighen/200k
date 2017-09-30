@@ -139,12 +139,20 @@ if (!isset($_GET['lang'])) {
 }
 
 echo "
-<div class=\"uk-grid-small uk-child-width-1-4@s uk-flex-center\">
-<div class=\"uk-width-expand@m\">
-    <h6>$aa</h6>
+<div class=\"uk - grid - small uk - child - width - 1 - 4@s uk - flex - center \" uk-grid>
+<div class=\"uk - width - expand@m\">
+    <h6>
+        $aa
+    </h6>
 </div>
-<div ></div>
+<div class=\"uk - width - 1 - 6@m\">
+    <h6>$a1</h6>
 </div>
+<div class=\"uk - width - 1 - 6@m\">
+    <h6>$ext1</h6>
+</div>
+</div>
+
 <div class=\"uk-grid-small uk-child-width-1-4@s uk-flex-center \" uk-grid>
 <div class=\"uk-width-expand@m\">
     <h6>
