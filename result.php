@@ -109,6 +109,9 @@
                                 }
                                 ?>
                             </h5>
+                            <?php
+                            include ('php/result1.php');
+                            ?>
                             <h6>
 
                             </h6>
@@ -130,6 +133,9 @@
                                 }
                                 ?>
                             </h5>
+                            <?php
+                            include ('php/result2.php');
+                            ?>
                             <h6>
 
                             </h6>

@@ -1,5 +1,5 @@
 <?php
-$aa = $_SESSION['type']; //f7
+$aa = $_SESSION['mate']; //f7
 $ab = $_SESSION['allSquare']; //c8
 $ac = $_SESSION['pplNum']; //c9
 $ad = $_SESSION['allBuild']; //c7
@@ -32,17 +32,7 @@ $h;
 $h1 = $_SESSION['hotWaterTotalAnnualUsd']; //e34
 $i;
 $i1 = $_SESSION['energyConsumption']; //c35
-$j;
-$j1 = $_SESSION['setCostUsd']; //e39
-$k;
-$k1 = $_SESSION['installFeeUsd']; //e40
-$l;
-$l1 = $_SESSION['totalUsd']; //e41
-$m;
-$m1 = $_SESSION['getInstallTotalTime']; //c42
-$n;
-$n1 = $_SESSION['connectedPwrObj1']; //c43
-$n2 = $_SESSION['connectedPwrObj2']; //e43
+
 $o;
 $o1 = $_SESSION['annualCostOfHeat']; //c51
 $s;
@@ -81,6 +71,20 @@ if (!isset($_GET['lang'])) {
     $ext6 = "долоо хоног";
     $ext7 = "жил";
 
+// Translate Material Name
+    if($aa == "tree")
+        $aa = "Мод";
+    elseif ($aa == "Warm Pol")
+        $aa = "Дулаалсан полимер";
+    elseif ($aa == "Block")
+        $aa = "Блок";
+    elseif ($aa == "beton erdest huvun")
+        $aa = "Бетон эрдэст хөвөн";
+    elseif ($aa == "toosgo")
+        $aa = "Тоосго";
+    else
+        $aa = "Бетон";
+
 } else {
     if ($_GET['lang'] == "ru") {
         $a = "Требуемая мощность теплового насоса";
@@ -109,6 +113,20 @@ if (!isset($_GET['lang'])) {
         $ext5 = "кВт/час";
         $ext6 = "недель";
         $ext7 = "лет";
+
+// Translate Material Name
+        if($aa == "tree")
+            $aa = "Дерево";
+        elseif ($aa == "Warm Pol")
+            $aa = "Утеплен полимер";
+        elseif ($aa == "Block")
+            $aa = "Теплоблок";
+        elseif ($aa == "beton erdest huvun")
+            $aa = "Бетон минвата";
+        elseif ($aa == "toosgo")
+            $aa = "Кирпич";
+        else
+            $aa = "Бетон";
     } else {
         $a = "Required power of the heat pump";
         $b = "Price of reuired CEPHEUS ARCTIC heat pump";
@@ -135,28 +153,46 @@ if (!isset($_GET['lang'])) {
         $ext5 = "kWt/h";
         $ext6 = "week(s)";
         $ext7 = "years";
+
+// Translate Material Name
+        if($aa == "tree")
+            $aa = "Wood ";
+        elseif ($aa == "Warm Pol")
+            $aa = "";
+        elseif ($aa == "Block")
+            $aa = "";
+        elseif ($aa == "beton erdest huvun")
+            $aa = "";
+        elseif ($aa == "toosgo")
+            $aa = "";
+        else
+            $aa = "";
     }
 }
-
+//<div class=\"uk-width-1-6@m\">
+//    <h6>$ab м2</h6>
+//</div>
+//<div class=\"uk-width-1-6@m\">
+//    <h6>$ac хүн амтай</h6>
+//</div>
+//<div class=\"uk-width-1-6@m\">
+//    <h6>$ad 1 барилгыг</h6>
+//</div>
+//<div class=\"uk-width-1-6@m\">
+//    <h6>$ae оС хэмд халаахад</h6>
+//</div>
 echo "
-<div class=\"uk - grid - small uk - child - width - 1 - 4@s uk - flex - center \" uk-grid>
-<div class=\"uk - width - expand@m\">
-    <h6>
-        $aa
-    </h6>
+<div class=\"uk-grid-small uk-child-width-1 - 4@s uk-flex-center \" uk-grid>
+<div class=\"uk-width-expand@m\">
+    <h6><i>$aa материалтай $ab м<sup>2</sup> $ac хүн амтай $ad барилгыг $ae &deg;C хэмд халаахад</i></h6>
 </div>
-<div class=\"uk - width - 1 - 6@m\">
-    <h6>$a1</h6>
-</div>
-<div class=\"uk - width - 1 - 6@m\">
-    <h6>$ext1</h6>
-</div>
+
 </div>
 
 <div class=\"uk-grid-small uk-child-width-1-4@s uk-flex-center \" uk-grid>
 <div class=\"uk-width-expand@m\">
     <h6>
-        $aa
+        $a
     </h6>
 </div>
 <div class=\"uk-width-1-6@m\">

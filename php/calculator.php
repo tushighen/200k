@@ -29,7 +29,7 @@ if (isset($_POST['calcForm'])) {
     $_SESSION['yesNo'] = $yesNo;
 
 //    $usdValue = $_POST['usdValue']; //e4
-    $usdValue = 2550;
+    $usdValue = 2450;
 
     echo "<script>alert($yesNo);</script>";
 
@@ -45,6 +45,12 @@ if (isset($_POST['calcForm'])) {
         $getCoff = mysql_query("select coefficient as coff from tableMaterial WHERE id=$type");
         $row = mysql_fetch_assoc($getCoff);
         $coff = $row['coff'];
+
+
+        $getMate = mysql_query("select material as mate from tableMaterial WHERE id=$type");
+        $row = mysql_fetch_assoc($getMate);
+        $mate = $row['mate'];
+        $_SESSION['mate'] = $mate; //f7 mate
 
         $warmPerMonth = $e20 / 0.8598 * $coff; //c20
         $spentWaterInaMonth = $pplNum * 31 * 79;  //c18
@@ -164,13 +170,13 @@ if (isset($_POST['calcForm'])) {
             ((($e19 * 1000000) / 3500) * 90 * 12) / 1000000; //c50
 
         $annualCostOfHeat = ($mvtPerMonth * 12 + $warmPerMonth * 8 + $nasosTotCosMonth * 8) * $perPower / 1000; //c51
-        $_SESSION['annualCostOfHeat'] =$annualCostOfHeat * $usdValue / 1000000; //c51
+        $_SESSION['annualCostOfHeat'] =$annualCostOfHeat / $usdValue * 1000000; //c51
 
         $annualTerminalOfHeat = $hotWaterTotalAnnualMnt; //c52
-        $_SESSION['annualTerminalOfHeatUsd'] =$annualTerminalOfHeat * $usdValue / 1000000 ; //c52
+        $_SESSION['annualTerminalOfHeatUsd'] =$annualTerminalOfHeat / $usdValue * 1000000 ; //c52
 
         $savingEco = $annualCostOfHeat - $annualTerminalOfHeat; //c54
-        $_SESSION['savingEcoUsd'] =$savingEco * $usdValue / 1000000; //c54
+        $_SESSION['savingEcoUsd'] =$savingEco / $usdValue * 1000000; //c54
 
         $repayment = $totalMnt / $savingEco; //c55
         $_SESSION['repayment'] =$repayment ; //c55
