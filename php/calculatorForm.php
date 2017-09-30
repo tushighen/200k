@@ -1,7 +1,7 @@
 <?php
 if (!isset($_GET['lang'])) {
     echo "
-    <form>
+<form action='result.php' method='post'>
                                 <div>
                                     <div class=\"uk-text-left\">Барилгын материал</div>
                                     <select name=\"type\" class=\"uk-select uk-form-small uk-form-success\">
@@ -44,9 +44,9 @@ include('php/dropdown.php');
                                 <div class=\"uk-margin\">
                                     <div class=\"uk-text-center\">Техникийн өрөө *</div>
                                     <div uk-form-custom=\"target: > * > span:first\">
-                                        <select name='yesNo'>
-                                            <option value=\"yes\">Байгаа</option>
-                                            <option value=\"no\">Байхгүй</option>
+                                        <select name=\"yesNo\">
+                                            <option value=\"1\">Байгаа</option>
+                                            <option value=\"0\">Байхгүй</option>
                                         </select>
                                         <button class=\"uk-button uk-button-primary uk-button-small \"
                                                 style=\"background-color: #336633\" type=\"button\" tabindex=\"-1\">
@@ -60,13 +60,14 @@ include('php/dropdown.php');
                                             style=\"background-color: #336633\">Тооцоолох
                                     </button>
                                 </div>
-                            </form>
+                                </form>
+                            
     ";
 }
 else {
     if ($_GET['lang'] == "ru") {
         echo "
-        <form>
+<form action='result.php?lang=ru' method='post'>
                                 <div>
                                     <div class=\"uk-text-left\">Материал здания</div>
                                     <select name=\"type\" class=\"uk-select uk-form-small uk-form-success\">
@@ -108,9 +109,9 @@ else {
                                 <div class=\"uk-margin\">
                                     <div class=\"uk-text-center\">Технический зал *</div>
                                     <div uk-form-custom=\"target: > * > span:first\">
-                                        <select name='yesNp'>
-                                            <option value=\"yes\">Является</option>
-                                            <option value=\"no\">Нет</option>
+                                        <select name=\"yesNo\">
+                                            <option value=\"1\">Является</option>
+                                            <option value=\"0\">Нет</option>
                                         </select>
                                         <button class=\"uk-button uk-button-primary uk-button-small \"
                                                 style=\"background-color: #336633\" type=\"button\" tabindex=\"-1\">
@@ -124,12 +125,13 @@ else {
                                             style=\"background-color: #336633\">Подсчитывать
                                     </button>
                                 </div>
-                            </form>
+                                </form>
+                            
         ";
     }
     else {
         echo "
-        <form>
+<form action='result.php?lang=en' method='post'>
                                 <div>
                                     <div class=\"uk-text-left\">Building made of</div>
                                     <select name=\"type\" class=\"uk-select uk-form-small uk-form-success\">
@@ -171,9 +173,9 @@ else {
                                 <div class=\"uk-margin\">
                                     <div class=\"uk-text-center\">Tech room *</div>
                                     <div uk-form-custom=\"target: > * > span:first\">
-                                        <select name='yesNo'>
-                                            <option value=\"yes\">Yes</option>
-                                            <option value=\"no\">No</option>
+                                        <select name=\"yesNo\">
+                                            <option value=\"1\">Yes</option>
+                                            <option value=\"0\">No</option>
                                         </select>
                                         <button class=\"uk-button uk-button-primary uk-button-small \"
                                                 style=\"background-color: #336633\" type=\"button\" tabindex=\"-1\">

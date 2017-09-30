@@ -21,12 +21,12 @@ if (!isset($_GET['lang'])) {
 else {
     if ($_GET['lang'] == "ru") {
         echo "
-                <option value=\"1\" selected>Дерево</option>
-                <option value=\"2\">Утеплен полимер</option>
-                <option value=\"3\">Теплоблок</option>
-                <option value=\"6\">Бетон минвата</option>
-                <option value=\"8\">Кирпич</option>
-                <option value=\"9\">Бетон</option>
+//                <option value=\"1\" selected>Дерево</option>
+//                <option value=\"2\">Утеплен полимер</option>
+//                <option value=\"3\">Теплоблок</option>
+//                <option value=\"6\">Бетон минвата</option>
+//                <option value=\"8\">Кирпич</option>
+//                <option value=\"9\">Бетон</option>
 ";
     }
     else {
