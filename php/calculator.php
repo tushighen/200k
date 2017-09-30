@@ -1,5 +1,6 @@
 <?php
 session_start();
+session_destroy();
 $constOutWarm = 0.0366; //c12
 $constOnePersonPerWarm = 0.212; //c13
 $constHotWaterPower = 0.0467; //c14
@@ -186,6 +187,7 @@ if (isset($_POST['calcForm'])) {
 //        header('Location: result.php');
 //        echo '<script>window.location.replace("result.php");</script>';
         echo "<script>alert($yesNo);</script>";
+
     }
 }
 ?>

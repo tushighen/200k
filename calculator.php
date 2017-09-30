@@ -1,4 +1,7 @@
 <?php include('php/dbConnection.php') ?>
+<?php
+//session_start();
+//unset($_SESSION['neededPwr']);?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
