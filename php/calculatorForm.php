@@ -14,8 +14,8 @@ include('php/dropdown.php');
                                 <div class=\"uk-margin\">
                                     <div class=\"uk-text-left\">Нийт талбайн м2</div>
                                     <input class=\"uk-input uk-form-small uk-form-success\" type=\"text\" name=\"allSquare\" placeholder=\"\">
-                                    <div class=\"uk-text-left\">* Манай бүтээгдэхүүн нь 87м2 талбайтай байшин барилга
-                                        болон түүнээс доош талбайтай байшин барилгад үнэ өртгийн хувьд адилхан
+                                    <div class=\"uk-text-left\"><i style='color: #428bca'><b>* Манай бүтээгдэхүүн нь 87м2 талбайтай байшин барилга
+                                        болон түүнээс доош талбайтай байшин барилгад үнэ өртгийн хувьд адилхан</b></i>
                                     </div>
                                 </div>
                                 <div class=\"uk-margin\">
@@ -79,8 +79,8 @@ else {
                                 <div class=\"uk-margin\">
                                     <div class=\"uk-text-left\">Общая площадь отапливаемых помещений</div>
                                     <input class=\"uk-input uk-form-small uk-form-success\" type=\"text\" name=\"allSquare\" placeholder=\"\">
-                                    <div class=\"uk-text-left\">* Манай бүтээгдэхүүн нь 87м2 талбайтай байшин барилга
-                                        болон түүнээс доош талбайтай байшин барилгад үнэ өртгийн хувьд адилхан
+                                    <div class=\"uk-text-left\"><i style='color: #428bca'><b>* Манай бүтээгдэхүүн нь 87м2 талбайтай байшин барилга
+                                        болон түүнээс доош талбайтай байшин барилгад үнэ өртгийн хувьд адилхан</b></i>
                                     </div>
                                 </div>
                                 <div class=\"uk-margin\">
@@ -143,8 +143,8 @@ else {
                                 <div class=\"uk-margin\">
                                     <div class=\"uk-text-left\">Total area</div>
                                     <input class=\"uk-input uk-form-small uk-form-success\" type=\"text\" name=\"allSquare\" placeholder=\"\">
-                                    <div class=\"uk-text-left\">* Манай бүтээгдэхүүн нь 87м2 талбайтай байшин барилга
-                                        болон түүнээс доош талбайтай байшин барилгад үнэ өртгийн хувьд адилхан
+                                    <div class=\"uk-text-left\"><i style='color: #428bca'><b>* Манай бүтээгдэхүүн нь 87м2 талбайтай байшин барилга
+                                        болон түүнээс доош талбайтай байшин барилгад үнэ өртгийн хувьд адилхан</b></i>
                                     </div>
                                 </div>
                                 <div class=\"uk-margin\">

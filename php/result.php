@@ -121,7 +121,7 @@ if (!isset($_GET['lang'])) {
     } else {
         $a = "Required power of the heat pump";
         $b = "Price of reuired CEPHEUS ARCTIC heat pump";
-        $c = "Required number of boreholes (ᴓ120mm, 150m deep)";
+        $c = "Required number of boreholes (120mm, 150m deep)";
         $d = "Total cost of boreholes";
         $e = "Heating point installation ";
         $f = "Electricity consumption for hot water supply";
