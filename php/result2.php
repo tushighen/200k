@@ -76,49 +76,49 @@ if (!isset($_GET['lang'])) {
 echo "
 <div class=\"uk-grid-small uk-child-width-1-4@s uk-flex-center \" uk-grid>
 <div class=\"uk-width-expand@m\">
-    <h6>
+    <h6><b>
         $o
-    </h6>
+    </b></h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$o1</h6>
+    <h6><b>$o1</b></h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$ext2</h6>
+    <h6><b>$ext2</b></h6>
 </div>
 </div>
 <div class=\"uk-grid-small uk-child-width-1-4@s uk-flex-center \" uk-grid>
 <div class=\"uk-width-expand@m\">
-    <h6>$s</h6>
+    <h6 style='color : #069906'><b>$s</b></b></h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$s1</h6>
+    <h6 style='color : #069906'><b>$s1</b></h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$ext2</h6>
+    <h6 style='color : #069906'><b>$ext2</b></h6>
 </div>
 </div>
 
 <div class=\"uk-grid-small uk-child-width-1-4@s uk-flex-center \" uk-grid>
 <div class=\"uk-width-expand@m\">
-    <h6>$r</h6>
+    <h6 style='color: #428bca'><b>$r</b></h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$r1</h6>
+    <h6 style='color: #428bca'><b>$r1</b></h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$ext2</h6>
+    <h6 style='color: #428bca'><b>$ext2</b></h6>
 </div>
 </div>
 <div class=\"uk-grid-small uk-child-width-1-4@s uk-flex-center \" uk-grid>
 <div class=\"uk-width-expand@m\">
-    <h6>$p</h6>
+    <h6 style='color: #428bca'><b>$p</b></h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$p1</h6>
+    <h6 style='color: #428bca'><b>$p1</b></h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$ext7</h6>
+    <h6 style='color: #428bca'><b>$ext7</b></h6>
 </div>
 </div>
 

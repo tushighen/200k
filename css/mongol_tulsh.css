@@ -1,5 +1,6 @@
 html, body {
     font-family: 'Roboto Condensed' !important;
+    color : black;
 }
 
 h1,
@@ -10,7 +11,9 @@ h5,
 h6 {
     font-family: 'Roboto Condensed' !important;
 }
-
+.text-just{
+    line-height :25px;
+}
 .cover {
     padding: 100px;
     /*padding-bottom: 200px;*/

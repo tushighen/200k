@@ -82,6 +82,8 @@ if (!isset($_GET['lang'])) {
     else
         $aa = "Бетон";
 
+
+    //$text=array("adasd");//,"m","$ac","people","with","$aa","material","%ad","buildings(s)","at","$ae","C");
 } else {
     if ($_GET['lang'] == "ru") {
         $a = "Требуемая мощность теплового насоса";
@@ -139,233 +141,249 @@ if (!isset($_GET['lang'])) {
         if($aa == "tree")
             $aa = "Wood ";
         elseif ($aa == "Warm Pol")
-            $aa = "";
+            $aa = "Insulated polymere";
         elseif ($aa == "Block")
-            $aa = "";
+            $aa = "Blocks";
         elseif ($aa == "beton erdest huvun")
-            $aa = "";
+            $aa = "Concrete mineral wool";
         elseif ($aa == "toosgo")
-            $aa = "";
+            $aa = "Bricks";
         else
-            $aa = "";
+            $aa = "Concrete";
+
+    }
+}
+if (!isset($_GET['lang'])) {
+    echo "
+        <div class=\"uk-grid-small uk-child-width-1 - 4@s uk-flex-center \" uk-grid>
+            <div class=\"uk-width-expand@m\">
+                <h6 style='color: #428bca'><i><b>$aa материалтай $ab м<sup>2</sup> $ac хүн амтай $ad барилгыг $ae &deg;C хэмд халаахад</b></i></h6>
+            </div>
+        </div>
+";
+} else{
+    if($_GET['lang']== "ru"){
+    echo"
+        <div class=\"uk-grid-small uk-child-width-1 - 4@s uk-flex-center \" uk-grid>
+            <div class=\"uk-width-expand@m\">
+                
+                <h6 style='color: #428bca'><i><b>$ad здания из $ac человек со $ab квадратных метров $aa нагреваются при $ae &deg;C </i></b></h6>
+            </div>
+        </div>
+";
+    } else{
+    echo "
+        <div class=\"uk-grid-small uk-child-width-1 - 4@s uk-flex-center \" uk-grid>
+            <div class=\"uk-width-expand@m\">
+               <h6 style='color: #428bca'><i><b>$ab m<sup>2</sup> $ac people with $aa material $ad building(s) at $ae &deg;C </i></b></h6>
+            </div>
+        </div>
+        ";
+
     }
 }
 if($af== 1) {
 
     echo "
-<div class=\"uk-grid-small uk-child-width-1 - 4@s uk-flex-center \" uk-grid>
-<div class=\"uk-width-expand@m\">
-    <h6><i>$aa материалтай $ab м<sup>2</sup> $ac хүн амтай $ad барилгыг $ae &deg;C хэмд халаахад</i></h6>
-</div>
-
-</div>
-
 <div class=\"uk-grid-small uk-child-width-1-4@s uk-flex-center \" uk-grid>
 <div class=\"uk-width-expand@m\">
-    <h6>
+    <h6><b>
         $a
-    </h6>
+    </b></h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$a1</h6>
+    <h6><b>$a1</b></h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$ext1</h6>
+    <h6><b>$ext1</b></h6>
 </div>
 </div>
 <div class=\"uk-grid-small uk-child-width-1-4@s uk-flex-center \" uk-grid>
 <div class=\"uk-width-expand@m\">
-    <h6>
+    <h6><b>
 $b
-    </h6>
+    </b></h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$b1</h6>
+    <h6><b>$b1</b></h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$ext2</h6>
+    <h6><b>$ext2</b></h6>
 </div>
 </div>
 
 <div class=\"uk-grid-small uk-child-width-1-4@s uk-flex-center \" uk-grid>
 <div class=\"uk-width-expand@m\">
-    <h6>$c</h6>
+    <h6><b>$c</b></h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$c1</h6>
+    <h6><b>$c1</b></h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$ext3</h6>
+    <h6><b>$ext3</b></h6>
 </div>
 </div>
 <div class=\"uk-grid-small uk-child-width-1-4@s uk-flex-center \" uk-grid>
 <div class=\"uk-width-expand@m\">
-    <h6>$d</h6>
+    <h6><b>$d</b></h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$d1</h6>
+    <h6><b>$d1</b></h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$ext2</h6>
+    <h6><b>$ext2</b></h6>
 </div>
 </div>
 <div class=\"uk-grid-small uk-child-width-1-4@s uk-flex-center \" uk-grid>
 <div class=\"uk-width-expand@m\">
-    <h6>$e</h6>
+    <h6><b>$e</b></h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$e1</h6>
+    <h6><b>$e1</b></h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$ext2</h6>
+    <h6><b>$ext2</b></h6>
 </div>
 </div>
 <div class=\"uk-grid-small uk-child-width-1-4@s uk-flex-center \" uk-grid>
 <div class=\"uk-width-expand@m\">
-    <h6>$f</h6>
+    <h6><b>$f</b></h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$f1</h6>
+    <h6><b>$f1</b></h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$ext4</h6>
+    <h6><b>$ext4</b></h6>
 </div>
 </div>
 <div class=\"uk-grid-small uk-child-width-1-4@s uk-flex-center \" uk-grid>
 <div class=\"uk-width-expand@m\">
-    <h6>$g</h6>
+    <h6><b>$g</b></h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$g1</h6>
+    <h6><b>$g1</b></h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$ext4</h6>
+    <h6><b>$ext4</b></h6>
 </div>
 </div>
 <div class=\"uk-grid-small uk-child-width-1-4@s uk-flex-center \" uk-grid>
 <div class=\"uk-width-expand@m\">
-    <h6>$h</h6>
+    <h6><b>$h</b></h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$h1</h6>
+    <h6><b>$h1</b></h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$ext2</h6>
+    <h6><b>$ext2</b></h6>
 </div>
 </div>
 <div class=\"uk-grid-small uk-child-width-1-4@s uk-flex-center \" uk-grid>
 <div class=\"uk-width-expand@m\">
-    <h6>$i</h6>
+    <h6><b>$i</b></h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$i1</h6>
+    <h6><b>$i1</b></h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$ext5</h6>
+    <h6><b>$ext5</b></h6>
 </div>
 </div>
 ";
 }
 else
     echo "
-<div class=\"uk-grid-small uk-child-width-1 - 4@s uk-flex-center \" uk-grid>
-<div class=\"uk-width-expand@m\">
-    <h6><i>$aa материалтай $ab м<sup>2</sup> $ac хүн амтай $ad барилгыг $ae &deg;C хэмд халаахад</i></h6>
-</div>
-
-</div>
-
 <div class=\"uk-grid-small uk-child-width-1-4@s uk-flex-center \" uk-grid>
 <div class=\"uk-width-expand@m\">
-    <h6>
+    <h6><b>
         $a
-    </h6>
+    </b></h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$a1</h6>
+    <h6><b>$a1</b></h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$ext1</h6>
+    <h6><b>$ext1</b></h6>
 </div>
 </div>
 <div class=\"uk-grid-small uk-child-width-1-4@s uk-flex-center \" uk-grid>
 <div class=\"uk-width-expand@m\">
-    <h6>
+    <h6><b>
 $b
-    </h6>
+    </b></h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$b1</h6>
+    <h6><b>$b1</b></h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$ext2</h6>
+    <h6><b>$ext2</b></h6>
 </div>
 </div>
 
 <div class=\"uk-grid-small uk-child-width-1-4@s uk-flex-center \" uk-grid>
 <div class=\"uk-width-expand@m\">
-    <h6>$c</h6>
+    <h6><b>$c</b></h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$c1</h6>
+    <h6><b>$c1</b></h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$ext3</h6>
+    <h6><b>$ext3</b></h6>
 </div>
 </div>
 <div class=\"uk-grid-small uk-child-width-1-4@s uk-flex-center \" uk-grid>
 <div class=\"uk-width-expand@m\">
-    <h6>$d</h6>
+    <h6><b>$d</b></h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$d1</h6>
+    <h6><b>$d1</b></h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$ext2</h6>
+    <h6><b>$ext2</b></h6>
 </div>
 </div>
 <div class=\"uk-grid-small uk-child-width-1-4@s uk-flex-center \" uk-grid>
 <div class=\"uk-width-expand@m\">
-    <h6>$f</h6>
+    <h6><b>$f</b></h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$f1</h6>
+    <h6><b>$f1</b></h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$ext4</h6>
+    <h6><b>$ext4</b></h6>
 </div>
 </div>
 <div class=\"uk-grid-small uk-child-width-1-4@s uk-flex-center \" uk-grid>
 <div class=\"uk-width-expand@m\">
-    <h6>$g</h6>
+    <h6><b>$g</b></h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$g1</h6>
+    <h6><b>$g1</b></h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$ext4</h6>
+    <h6><b>$ext4</b></h6>
 </div>
 </div>
 <div class=\"uk-grid-small uk-child-width-1-4@s uk-flex-center \" uk-grid>
 <div class=\"uk-width-expand@m\">
-    <h6>$h</h6>
+    <h6><b>$h</b></h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$h1</h6>
+    <h6><b>$h1</b></h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$ext2</h6>
+    <h6><b>$ext2</b></h6>
 </div>
 </div>
 <div class=\"uk-grid-small uk-child-width-1-4@s uk-flex-center \" uk-grid>
 <div class=\"uk-width-expand@m\">
-    <h6>$i</h6>
+    <h6><b>$i</b></h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$i1</h6>
+    <h6><b>$i1</b></h6>
 </div>
 <div class=\"uk-width-1-6@m\">
-    <h6>$ext5</h6>
+    <h6><b>$ext5</b></h6>
 </div>
 </div>
 

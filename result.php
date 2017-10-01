@@ -43,11 +43,11 @@ if (!isset($_SESSION))
                             <h5>
                                 <?php
                                 if (!isset($_GET['lang']))
-                                    echo 'ТАНЫ БАРИЛГЫН ДУЛААНЫГ ШИЙДЭХЭД';
+                                    echo '<p style="color:#336633"><b>ТАНЫ БАРИЛГЫН ДУЛААНЫГ ШИЙДЭХЭД</b></p>';
                                 else {
                                     if ($_GET['lang'] == "ru")
-                                        echo 'ЧТОБЫ РЕШИТЬ ТЕПЛОТУ ЗДАНИЯ ВАШ';
-                                    else echo 'IN ORDER TO DECIDE YOUR CONSTRUCTIONS WARM';
+                                        echo '<p style="color:#336633"><b>ЧТОБЫ РЕШИТЬ ТЕПЛОТУ ЗДАНИЯ ВАШ</b></p>';
+                                    else echo '<p style="color:#336633"><b>IN ORDER TO DECIDE YOUR CONSTRUCTIONS WARM</b></p>';
                                 }
                                 ?>
                             </h5>
@@ -67,11 +67,11 @@ if (!isset($_SESSION))
                             <h5>
                                 <?php
                                 if (!isset($_GET['lang']))
-                                    echo 'АЖЛЫН НИЙТ ӨРТӨГ БОЛОН ГҮЙЦЭТГЭХ ХУГАЦАА';
+                                    echo '<p style="color:#336633"><b>АЖЛЫН НИЙТ ӨРТӨГ БОЛОН ГҮЙЦЭТГЭХ ХУГАЦАА</b></p>';
                                 else {
                                     if ($_GET['lang'] == "ru")
-                                        echo 'ОБЩАЯ СТОИМОСТЬ РАБОТЫ И ПРОДОЛЖИТЕЛЬНОСТЬ РАБОТЫ';
-                                    else echo 'TOTAL COST OF WORK AND FINISH TIME';
+                                        echo '<p style="color:#336633"><b>ОБЩАЯ СТОИМОСТЬ РАБОТЫ И ПРОДОЛЖИТЕЛЬНОСТЬ РАБОТЫ</b></p>';
+                                    else echo '<p style="color:#336633"><b>TOTAL COST OF WORK AND FINISH TIME</b></p>';
                                 }
                                 ?>
                             </h5>
@@ -87,15 +87,15 @@ if (!isset($_SESSION))
                         </div>
                     </div>
                     <div class="backgroundGrey" style="margin-top: 20px">
-                        <div class="uk-text-left">
+                        <div class="uk-text-left uk-text-primary">
                             <h5>
                                 <?php
                                 if (!isset($_GET['lang']))
-                                    echo 'ХЭМНЭЛТ БОЛОН ДАВУУ ТАЛ';
+                                    echo '<p style="color:#336633"><b>ХЭМНЭЛТ БОЛОН ДАВУУ ТАЛ</b></p>';
                                 else {
                                     if ($_GET['lang'] == "ru")
-                                        echo 'СОХРАНЕНИЕ И ПРЕИМУЩЕСТВО';
-                                    else echo 'SAVINGS AND ADVANTAGE';
+                                        echo '<p style="color:#336633"><b>СОХРАНЕНИЕ И ПРЕИМУЩЕСТВО</b></p>';
+                                    else echo '<p style="color:#336633"><b>SAVINGS AND ADVANTAGE</b></p>';
                                 }
                                 ?>
                             </h5>
@@ -103,7 +103,7 @@ if (!isset($_SESSION))
                             include ('php/result2.php');
                             ?>
                             <h6>
-
+                                <p class="uk-text-center"><font size="2">Copyright © 2017  Монгол Түлш ХХК. All rights reserved</font></p>
                             </h6>
                         </div>
                         <div>

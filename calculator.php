@@ -57,6 +57,7 @@ session_start();
 <!--                            <form action="result.php" method="post">-->
                                 <?php include('php/calculatorForm.php');?>
                                 <?php include('php/calculator.php');?>
+                                <p><font size="2">Copyright © 2017  Монгол Түлш ХХК. All rights reserved</font></p>
 <!--                            </form>-->
                         </div>
                     </div>
