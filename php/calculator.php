@@ -31,9 +31,19 @@ if (isset($_POST['calcForm'])) {
     $usdValue = 2450;
 
     /*echo "<script>alert($yesNo);</script>";*/
+    $error;
+    if(!isset($_GET['lang'])){
+        $error = "Aлдаа!";
+    } else{
+        if($_GET['lang']== "ru"){
+            $error = "Ошибка!";
+        } else {
+            $error = "Error!";
 
+        }
+    }
     if ($allSquare <= 87 || $allSquare > 30410) {
-        echo "<script>alert('Алдааasd');</script>";
+        echo "<script>alert('$error');</script>";
         echo '<script>window.location.replace("calculator.php");</script>';
     } else {
         $dayWorkTime = 12; //36
