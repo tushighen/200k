@@ -30,10 +30,11 @@ if (isset($_POST['calcForm'])) {
 //    $usdValue = $_POST['usdValue']; //e4
     $usdValue = 2450;
 
-    echo "<script>alert($yesNo);</script>";
+    /*echo "<script>alert($yesNo);</script>";*/
 
     if ($allSquare <= 87 || $allSquare > 30410) {
-        echo "<script>alert('Алдаа');</script>";
+        echo "<script>alert('Алдааasd');</script>";
+        echo '<script>window.location.replace("calculator.php");</script>';
     } else {
         $dayWorkTime = 12; //36
 
@@ -184,7 +185,7 @@ if (isset($_POST['calcForm'])) {
 //        $_SESSION['type'] = $type;
 //        header('Location: result.php');
 //        echo '<script>window.location.replace("result.php");</script>';
-        echo "<script>alert($yesNo);</script>";
+
 
     }
 }

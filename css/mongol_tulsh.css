@@ -17,6 +17,19 @@ h6 {
     background-image: url("../images/index.png");
     /*height: 100vh;*/
 }
+.coverb {
+    padding: 100px;
+    /*padding-bottom: 200px;*/
+    background-image: url("../images/calculate.png");
+    /*height: 100vh;*/
+}
+.coverc {
+    padding: 100px;
+    /*padding-bottom: 200px;*/
+    background-image: url("../images/result.png");
+    /*height: 100vh;*/
+}
+
 
 .cover a {
     color: #000000;

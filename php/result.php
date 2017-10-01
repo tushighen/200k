@@ -4,7 +4,7 @@ $ab = $_SESSION['allSquare']; //c8
 $ac = $_SESSION['pplNum']; //c9
 $ad = $_SESSION['allBuild']; //c7
 $ae = $_SESSION['neededEner']; //c22
-//$af = $_SESSION['']; //c23
+$af = $_SESSION['yesNo']; //c23
 $ext1;
 $ext2 = "USD";
 $ext3;
@@ -150,7 +150,9 @@ if (!isset($_GET['lang'])) {
             $aa = "";
     }
 }
-echo "
+if($af== 1) {
+
+    echo "
 <div class=\"uk-grid-small uk-child-width-1 - 4@s uk-flex-center \" uk-grid>
 <div class=\"uk-width-expand@m\">
     <h6><i>$aa материалтай $ab м<sup>2</sup> $ac хүн амтай $ad барилгыг $ae &deg;C хэмд халаахад</i></h6>
@@ -262,6 +264,111 @@ $b
     <h6>$ext5</h6>
 </div>
 </div>
+";
+}
+else
+    echo "
+<div class=\"uk-grid-small uk-child-width-1 - 4@s uk-flex-center \" uk-grid>
+<div class=\"uk-width-expand@m\">
+    <h6><i>$aa материалтай $ab м<sup>2</sup> $ac хүн амтай $ad барилгыг $ae &deg;C хэмд халаахад</i></h6>
+</div>
+
+</div>
+
+<div class=\"uk-grid-small uk-child-width-1-4@s uk-flex-center \" uk-grid>
+<div class=\"uk-width-expand@m\">
+    <h6>
+        $a
+    </h6>
+</div>
+<div class=\"uk-width-1-6@m\">
+    <h6>$a1</h6>
+</div>
+<div class=\"uk-width-1-6@m\">
+    <h6>$ext1</h6>
+</div>
+</div>
+<div class=\"uk-grid-small uk-child-width-1-4@s uk-flex-center \" uk-grid>
+<div class=\"uk-width-expand@m\">
+    <h6>
+$b
+    </h6>
+</div>
+<div class=\"uk-width-1-6@m\">
+    <h6>$b1</h6>
+</div>
+<div class=\"uk-width-1-6@m\">
+    <h6>$ext2</h6>
+</div>
+</div>
+
+<div class=\"uk-grid-small uk-child-width-1-4@s uk-flex-center \" uk-grid>
+<div class=\"uk-width-expand@m\">
+    <h6>$c</h6>
+</div>
+<div class=\"uk-width-1-6@m\">
+    <h6>$c1</h6>
+</div>
+<div class=\"uk-width-1-6@m\">
+    <h6>$ext3</h6>
+</div>
+</div>
+<div class=\"uk-grid-small uk-child-width-1-4@s uk-flex-center \" uk-grid>
+<div class=\"uk-width-expand@m\">
+    <h6>$d</h6>
+</div>
+<div class=\"uk-width-1-6@m\">
+    <h6>$d1</h6>
+</div>
+<div class=\"uk-width-1-6@m\">
+    <h6>$ext2</h6>
+</div>
+</div>
+<div class=\"uk-grid-small uk-child-width-1-4@s uk-flex-center \" uk-grid>
+<div class=\"uk-width-expand@m\">
+    <h6>$f</h6>
+</div>
+<div class=\"uk-width-1-6@m\">
+    <h6>$f1</h6>
+</div>
+<div class=\"uk-width-1-6@m\">
+    <h6>$ext4</h6>
+</div>
+</div>
+<div class=\"uk-grid-small uk-child-width-1-4@s uk-flex-center \" uk-grid>
+<div class=\"uk-width-expand@m\">
+    <h6>$g</h6>
+</div>
+<div class=\"uk-width-1-6@m\">
+    <h6>$g1</h6>
+</div>
+<div class=\"uk-width-1-6@m\">
+    <h6>$ext4</h6>
+</div>
+</div>
+<div class=\"uk-grid-small uk-child-width-1-4@s uk-flex-center \" uk-grid>
+<div class=\"uk-width-expand@m\">
+    <h6>$h</h6>
+</div>
+<div class=\"uk-width-1-6@m\">
+    <h6>$h1</h6>
+</div>
+<div class=\"uk-width-1-6@m\">
+    <h6>$ext2</h6>
+</div>
+</div>
+<div class=\"uk-grid-small uk-child-width-1-4@s uk-flex-center \" uk-grid>
+<div class=\"uk-width-expand@m\">
+    <h6>$i</h6>
+</div>
+<div class=\"uk-width-1-6@m\">
+    <h6>$i1</h6>
+</div>
+<div class=\"uk-width-1-6@m\">
+    <h6>$ext5</h6>
+</div>
+</div>
+
 ";
 ?>
 

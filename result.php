@@ -16,7 +16,7 @@ if (!isset($_SESSION))
     <link rel="stylesheet" href="css/mongol_tulsh.css" type="text/css"/>
 </head>
 <body>
-<div class="cover uk-background-cover uk-visible@m uk-background-image@m">
+<div class="coverc uk-background-cover uk-visible@m uk-background-image@m">
     <div class="uk-container">
         <div class="uk-grid-large uk-flex-middle uk-grid-margin-large uk-grid" uk-grid>
             <div class="uk-width-expand@m">
@@ -43,11 +43,11 @@ if (!isset($_SESSION))
                             <h5>
                                 <?php
                                 if (!isset($_GET['lang']))
-                                    echo 'ТАНЫ БАРИЛГАД ДУЛААНЫГ ШИЙДЭХЭД';
+                                    echo 'ТАНЫ БАРИЛГЫН ДУЛААНЫГ ШИЙДЭХЭД';
                                 else {
                                     if ($_GET['lang'] == "ru")
-                                        echo 'КАЛЬКУЛЯТОР';
-                                    else echo 'CALCULATOR';
+                                        echo 'ЧТОБЫ РЕШИТЬ ТЕПЛОТУ ЗДАНИЯ ВАШ';
+                                    else echo 'IN ORDER TO DECIDE YOUR CONSTRUCTIONS WARM';
                                 }
                                 ?>
                             </h5>
@@ -57,44 +57,6 @@ if (!isset($_SESSION))
                             ?>
                             </div>
 
-
-<!--                            <div class="uk-grid-small uk-child-width-1-4@s uk-flex-center uk-text-center" uk-grid>-->
-<!--                                <div class="uk-width-expand@m">-->
-<!--                                    <h6>-->
-<!--                                        --><?php
-//                                        if (!isset($_GET['lang'])){
-//                                            echo 'Шаардагдах цооногийн тоо /гүн 150 м, диаметр 120мм ';
-//                                        }
-//                                        else {
-//                                            if ($_GET['lang'] == "ru")
-//                                                echo 'КАЛЬКУЛЯТОР';
-//                                            else echo 'CALCULATOR';
-//                                        }
-//                                        ?>
-<!--                                    </h6>-->
-<!--                                </div>-->
-<!--                                <div class="uk-width-1-6@m">-->
-<!--                                    <h6>11</h6>-->
-<!--                                </div>-->
-<!--                                <div class="uk-width-1-6@m">-->
-<!--                                    <h6>сая төгрөг</h6>-->
-<!--                                </div>-->
-<!--                            </div>-->
-
-<!--                            <h6>-->
-<!--                                --><?php
-//                                if (!isset($_GET['lang'])){
-//                                    echo 'Шаардагдах дулааны шахуургын хүчин чадал ';
-//                                    echo '130 ';
-//                                    echo 'кВт';
-//                                }
-//                                else {
-//                                    if ($_GET['lang'] == "ru")
-//                                        echo 'КАЛЬКУЛЯТОР';
-//                                    else echo 'CALCULATOR';
-//                                }
-//                                ?>
-<!--                            </h6>-->
                         </div>
                         <div>
 
@@ -108,8 +70,8 @@ if (!isset($_SESSION))
                                     echo 'АЖЛЫН НИЙТ ӨРТӨГ БОЛОН ГҮЙЦЭТГЭХ ХУГАЦАА';
                                 else {
                                     if ($_GET['lang'] == "ru")
-                                        echo 'КАЛЬКУЛЯТОР';
-                                    else echo 'CALCULATOR';
+                                        echo 'ОБЩАЯ СТОИМОСТЬ РАБОТЫ И ПРОДОЛЖИТЕЛЬНОСТЬ РАБОТЫ';
+                                    else echo 'TOTAL COST OF WORK AND FINISH TIME';
                                 }
                                 ?>
                             </h5>
@@ -132,8 +94,8 @@ if (!isset($_SESSION))
                                     echo 'ХЭМНЭЛТ БОЛОН ДАВУУ ТАЛ';
                                 else {
                                     if ($_GET['lang'] == "ru")
-                                        echo 'КАЛЬКУЛЯТОР';
-                                    else echo 'CALCULATOR';
+                                        echo 'СОХРАНЕНИЕ И ПРЕИМУЩЕСТВО';
+                                    else echo 'SAVINGS AND ADVANTAGE';
                                 }
                                 ?>
                             </h5>

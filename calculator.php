@@ -19,7 +19,7 @@ session_start();
 </head>
 <body>
 
-<div class="cover uk-background-cover uk-visible@m uk-background-image@m">
+<div class="coverb uk-background-cover uk-visible@m uk-background-image@m">
     <div class="uk-container">
         <div class="uk-grid-large uk-flex-middle uk-grid-margin-large uk-grid" uk-grid>
             <div class="uk-width-expand@m">
