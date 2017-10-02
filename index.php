@@ -38,9 +38,9 @@
         </div>
     </div>
 </div>
-<div class="uk-hidden@m">
-    <p>asdasd</p>
-</div>
+<!--<div class="uk-hidden@m">-->
+<!--    <p>asdasd</p>-->
+<!--</div>-->
 
 <div id="error" uk-modal>
     <div class="uk-modal-dialog uk-modal-body">

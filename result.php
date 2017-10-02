@@ -3,6 +3,9 @@
 <?php
 if (!isset($_SESSION))
     echo '<script>window.location.replace("calculator.php");</script>';
+else {
+    
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -103,6 +106,24 @@ if (!isset($_SESSION))
                             include ('php/result2.php');
                             ?>
                             <h6>
+                                <?php
+                                if(!isset($_GET['lang']))
+                                    echo '<div class="uk-text-left"><i><b>* Манай бүтээгдэхүүн нь 87м2 талбайтай байшин барилга
+                                            болон түүнээс доош талбайтай байшин барилгад үнэ өртгийн хувьд адилхан</b></i>
+                                            </div>';
+                                else {
+                                    if ($_GET['lang'] == "ru")
+                                        echo '<div class="uk-text-left"><i><b>* Манай бүтээгдэхүүн нь 87м2 талбайтай байшин барилга
+                                            болон түүнээс доош талбайтай байшин барилгад үнэ өртгийн хувьд адилхан</b></i>
+                                </div>';
+                                    else {
+                                        echo '<div class="uk-text-left"><i><b>* Манай бүтээгдэхүүн нь 87м2 талбайтай байшин барилга
+                                            болон түүнээс доош талбайтай байшин барилгад үнэ өртгийн хувьд адилхан</b></i>
+                                </div>';
+                                    }
+                                }
+
+                                ?>
                                 <p class="uk-text-center"><font size="2">Copyright © 2017  Монгол Түлш ХХК. All rights reserved</font></p>
                             </h6>
                         </div>

@@ -3,10 +3,11 @@
 <?php
 if (isset($_SESSION))
     session_destroy();
+else session_start();
 ?>
 <?php
-session_start();
-//unset($_SESSION['neededPwr']);?>
+//session_start();
+////unset($_SESSION['neededPwr']);?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
