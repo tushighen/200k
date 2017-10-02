@@ -8,7 +8,10 @@ if (isset($_GET['lang'])) {
 На весь расчет потребуется 3 минут при условии, что у Вас есть все необходимые вводные данные Вашего объекта, такие как общая площадь, количество проживающих.<br><br>
 Заявки на инсталляцию в этом году (2017) принимаются до 27 октября.   
 Будем рады дальнейшему плодотворному сотрудничеству команда Монгол Тулш</font></p>
-</div>
+</div>                     
+                        <a href="index.php">MN </a>|
+                        <a href="?lang=ru"> RU </a>|
+                        <a href="?lang=en"> EN</a>
                         
                         <form action="index.php?lang=ru" method="post">
                             <input type="checkbox" name="age" value="age"><font size="2" style="font-weight: bold">&nbsp;&nbsp;Вы можете ввести, если вы +18</font><br>
@@ -27,6 +30,9 @@ Applications for installation this year (2017) are accepted until October 27.
 We will be glad to further fruitful cooperation team Mongol Tulsh
 </font></p>
 </div>
+                        <a href="index.php">MN </a>|
+                        <a href="?lang=ru"> RU </a>|
+                        <a href="?lang=en"> EN</a>
                         
                         <form action="index.php?lang=en" method="post">
                             <input type="checkbox" name="age" value="age"><font size="2" style="font-weight: bold">&nbsp;&nbsp;You can enter if you are +18</font><br>
@@ -53,11 +59,24 @@ else {
                                 Энэ жилийн захиалгыг 2017 оны 10 сарын 27 хүртэл авахыг анхаарна уу.
                                 Цаашид Таньтай хамтран ажиллахад бид бэлэн байна. Монгол Түлш ХХК</font></p>
 </div>
-                        
+                                   <div class="flag-wrapper">
+                                       <div class="flag flag-icon-background flag-icon-mn">
+                                       
+                                       </div>
+                                   </div>
+                                   <div>
+                                   <a href="index.php">MN </a>|
+                                   <a href="?lang=ru"> RU </a>|
+                                   <a href="?lang=en"> EN</a>
+                                   
+                                   </div>
+                                    
+                             
                         <form action="index.php" method="post">
+                            
                             <input type="checkbox" name="age" value="age"><font size="2" style="font-weight: bold">&nbsp;&nbsp;+18 нас хүрсэн бол орж болно</font><br>
                             <button name="req" type="submit" class="uk-button uk-button-primary uk-button-small" style="background-color: #336633">Нэвтрэх</button>
-                            <p><font size="2">Copyright © 2017  Монгол Түлш ХХК. All rights reserved</font></p>
+                            <p><a href="https://www.facebook.com/GSHPMONGOLIA/" class="fa fa-facebook-official">&nbsp;</a><font size="2">Copyright © 2017  Монгол Түлш ХХК. All rights reserved</font></p>
                         </form>
     ';
 }

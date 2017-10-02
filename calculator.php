@@ -21,30 +21,24 @@ else session_start();
 </head>
 <body>
 
-<div class="coverb uk-background-cover uk-visible@s uk-background-image@m">
-    <div class="uk-container">
+<div class="coverb uk-background-cover uk-visible@m uk-background-image@m">
+    <div class="">
         <div class="uk-grid-large uk-flex-middle uk-grid-margin-large uk-grid" uk-grid>
-            <div class="uk-width-expand@m">
+            <div class="uk-width-1-6@m">
+
+            </div>
+            <div class="uk-width-1-2@m">
 
             </div>
             <div class="uk-width-expand@m">
                 <div class="uk-margin uk-text-center uk-scrollspy-inview uk-animation-slide-right"
                      uk-scrollspy-class="uk-animation-slide-right">
                     <div class="backgroundGrey">
-                        <div class="uk-grid-large uk-flex-middle uk-grid-margin-large uk-grid" uk-grid>
-                            <div class="uk-width-expand@m">
-                                <a href="https://www.facebook.com/GSHPMONGOLIA/" uk-icon="icon: facebook"></a>
-                            </div>
-                            <div class="uk-width-expand@m">
-                                <a href="calculator.php">MN </a>|
-                                <a href="?lang=ru"> RU </a>|
-                                <a href="?lang=en"> EN</a>
-                            </div>
-                        </div>
                         <img src="images/logo.png" style="height: 70px" class="uk-text-center">
                     </div>
                     <div class="backgroundGrey" style="margin-top: 20px">
                         <div class="uk-text-left">
+
                             <h5><?php
                                 if (!isset($_GET['lang']))
                                     echo 'ТООЦООЛУУР';
@@ -59,7 +53,8 @@ else session_start();
                             <!--                            <form action="result.php" method="post">-->
                             <?php include('php/calculatorForm.php'); ?>
                             <?php include('php/calculator.php'); ?>
-                            <p><font size="2">Copyright © 2017 Монгол Түлш ХХК. All rights reserved</font></p>
+                                    <p><a href="https://www.facebook.com/GSHPMONGOLIA/" uk-icon="icon: facebook"></a>
+                                    <font size="2">Copyright © 2017 Монгол Түлш ХХК. All rights reserved</font></p>
                             <!--                            </form>-->
                         </div>
                     </div>
@@ -68,21 +63,54 @@ else session_start();
         </div>
     </div>
 </div>
+<div class="uk-visible@m uk-hidden@l">
+    <div class="cover uk-background-cover uk-background-image@m">
+        <div class="uk-container">
+            <div class="uk-grid-large uk-flex-middle uk-grid-margin-large uk-grid" uk-grid>
+                <div class="uk-width-expand@m">
+
+                </div>
+                <div class="uk-width-expand@m">
+                    <div class="uk-margin uk-text-center uk-scrollspy-inview uk-animation-slide-right"
+                         uk-scrollspy-class="uk-animation-slide-right">
+                        <div class="backgroundGrey">
+                            <img src="images/logo.png" style="height: 70px" class="uk-text-center">
+                        </div>
+                        <div class="backgroundGrey" style="margin-top: 20px">
+                            <div class="uk-text-left">
+                                <h5><?php
+                                    if (!isset($_GET['lang']))
+                                        echo 'ТООЦООЛУУР';
+                                    else {
+                                        if ($_GET['lang'] == "ru")
+                                            echo 'КАЛЬКУЛЯТОР';
+                                        else echo 'CALCULATOR';
+                                    }
+                                    ?></h5>
+                            </div>
+                            <div>
+                                <!--                            <form action="result.php" method="post">-->
+                                <?php include('php/calculatorForm.php'); ?>
+                                <?php include('php/calculator.php'); ?>
+                                <p><a href="https://www.facebook.com/GSHPMONGOLIA/" uk-icon="icon: facebook"></a>
+                                <font size="2">Copyright © 2017 Монгол Түлш ХХК. All rights reserved</font></p>
+                                <!--                            </form>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+                </div>
+                <div class="uk-width-expand@m">
 <div class="uk-hidden@m">
     <div class="uk-container">
         <div class="uk-margin uk-text-center uk-scrollspy-inview uk-animation-slide-right"
              uk-scrollspy-class="uk-animation-slide-right">
             <div class="backgroundGrey">
-                <div class="uk-grid-large uk-flex-middle uk-grid-margin-large uk-grid" uk-grid>
-                    <div class="uk-width-expand@m">
-                        <a href="https://www.facebook.com/GSHPMONGOLIA/" uk-icon="icon: facebook"></a>
-                    </div>
-                    <div class="uk-width-expand@m">
-                        <a href="calculator.php">MN </a>|
-                        <a href="?lang=ru"> RU </a>|
-                        <a href="?lang=en"> EN</a>
-                    </div>
-                </div>
                 <img src="images/logo.png" style="height: 70px" class="uk-text-center">
             </div>
             <div class="backgroundGrey" style="margin-top: 20px">
@@ -101,7 +129,8 @@ else session_start();
                     <!--                            <form action="result.php" method="post">-->
                     <?php include('php/calculatorForm.php'); ?>
                     <?php include('php/calculator.php'); ?>
-                    <p><font size="2">Copyright © 2017 Монгол Түлш ХХК. All rights reserved</font></p>
+                    <p><a href="https://www.facebook.com/GSHPMONGOLIA/" uk-icon="icon: facebook"></a>
+                    <font size="2">Copyright © 2017 Монгол Түлш ХХК. All rights reserved</font></p>
                     <!--                            </form>-->
                 </div>
             </div>

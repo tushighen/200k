@@ -8,8 +8,8 @@ $f;
 
 if (!isset($_GET['lang'])) {
     echo "
-                <option value=\"1\" selected>Мод</option>
-                <option value=\"2\">Дулаалсан полимер</option>
+                <option value=\"1\">Мод</option>
+                <option value=\"2\" selected>Дулаалсан полимер</option>
                 <option value=\"3\">Блок</option>
                 <option value=\"6\">Бетон эрдэст хөвөн</option>
                 <option value=\"8\">Тоосго</option>
@@ -21,8 +21,8 @@ if (!isset($_GET['lang'])) {
 else {
     if ($_GET['lang'] == "ru") {
         echo "
-//                <option value=\"1\" selected>Дерево</option>
-//                <option value=\"2\">Утеплен полимер</option>
+//                <option value=\"1\" >Дерево</option>
+//                <option value=\"2\"selected>Утеплен полимер</option>
 //                <option value=\"3\">Теплоблок</option>
 //                <option value=\"6\">Бетон минвата</option>
 //                <option value=\"8\">Кирпич</option>
@@ -31,8 +31,8 @@ else {
     }
     else {
         echo "
-                <option value=\"1\" selected>Wood</option>
-                <option value=\"2\">Insulated polymere</option>
+                <option value=\"1\" >Wood</option>
+                <option value=\"2\"selected>Insulated polymere</option>
                 <option value=\"3\">Blocks</option>
                 <option value=\"6\">Concrete mineral wool</option>
                 <option value=\"8\">Bricks</option>

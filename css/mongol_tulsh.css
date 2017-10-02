@@ -12,12 +12,25 @@ h6 {
     font-family: 'Roboto Condensed' !important;
 }
 
-.text-just {
-    line-height: 25px;
+.flag-wrapper .flag {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.flag-icon-background {
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
 }
 
 .cover {
-    padding: 100px;
+    padding: 10px;
+    padding-bottom: 200px;
     /*padding-bottom: 200px;*/
     background-image: url("../images/index.png");
     /*height: 100vh;*/
@@ -35,7 +48,8 @@ h6 {
 }
 
 .coverb {
-    padding: 100px;
+    padding: 10px;
+    padding-bottom: 200px;
     /*padding-bottom: 200px;*/
     background-image: url("../images/calculate.png");
     /*height: 100vh;*/
@@ -53,7 +67,8 @@ h6 {
 }
 
 .coverc {
-    padding: 100px;
+    padding: 10px;
+    padding-bottom: 200px;
     /*padding-bottom: 200px;*/
     background-image: url("../images/result.png");
     /*height: 100vh;*/
