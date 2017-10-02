@@ -1,6 +1,6 @@
 html, body {
     font-family: 'Roboto Condensed' !important;
-    color : black;
+    color: black;
 }
 
 h1,
@@ -11,28 +11,17 @@ h5,
 h6 {
     font-family: 'Roboto Condensed' !important;
 }
-.text-just{
-    line-height :25px;
+
+.text-just {
+    line-height: 25px;
 }
+
 .cover {
     padding: 100px;
     /*padding-bottom: 200px;*/
     background-image: url("../images/index.png");
     /*height: 100vh;*/
 }
-.coverb {
-    padding: 100px;
-    /*padding-bottom: 200px;*/
-    background-image: url("../images/calculate.png");
-    /*height: 100vh;*/
-}
-.coverc {
-    padding: 100px;
-    /*padding-bottom: 200px;*/
-    background-image: url("../images/result.png");
-    /*height: 100vh;*/
-}
-
 
 .cover a {
     color: #000000;
@@ -41,6 +30,42 @@ h6 {
 }
 
 .cover a:hover {
+    color: #336633;
+    text-decoration: none;
+}
+
+.coverb {
+    padding: 100px;
+    /*padding-bottom: 200px;*/
+    background-image: url("../images/calculate.png");
+    /*height: 100vh;*/
+}
+
+.coverb a {
+    color: #000000;
+    transition: 0.5s;
+    font-weight: 400;
+}
+
+.coverb a:hover {
+    color: #336633;
+    text-decoration: none;
+}
+
+.coverc {
+    padding: 100px;
+    /*padding-bottom: 200px;*/
+    background-image: url("../images/result.png");
+    /*height: 100vh;*/
+}
+
+.coverc a {
+    color: #000000;
+    transition: 0.5s;
+    font-weight: 400;
+}
+
+.coverc a:hover {
     color: #336633;
     text-decoration: none;
 }

@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>MONGOL TULSH</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300;subset=cyrillic-ext" rel="stylesheet"
           type="text/css">
@@ -38,9 +39,27 @@
         </div>
     </div>
 </div>
-<!--<div class="uk-hidden@m">-->
-<!--    <p>asdasd</p>-->
-<!--</div>-->
+<div class="uk-hidden@m">
+    <div class="uk-container">
+        <div class="uk-margin uk-text-center uk-scrollspy-inview uk-animation-slide-right"
+             uk-scrollspy-class="uk-animation-slide-right">
+            <div class="backgroundGrey">
+                <div class="uk-grid-large uk-flex-middle uk-grid-margin-large uk-grid" uk-grid>
+                    <div class="uk-width-expand@m">
+                        <a href="https://www.facebook.com/GSHPMONGOLIA/" uk-icon="icon: facebook"></a>
+                    </div>
+                    <div class="uk-width-expand@m">
+                        <a href="index.php">MN </a>|
+                        <a href="?lang=ru"> RU </a>|
+                        <a href="?lang=en"> EN</a>
+                    </div>
+                </div>
+                <img src="images/logo.png" style="height: 70px" class="uk-text-center">
+                <?php include('php/indexLang.php');?>
+            </div>
+        </div>
+    </div>
+</div>
 
 <div id="error" uk-modal>
     <div class="uk-modal-dialog uk-modal-body">
