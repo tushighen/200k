@@ -59,17 +59,12 @@ else {
                                 Энэ жилийн захиалгыг 2017 оны 10 сарын 27 хүртэл авахыг анхаарна уу.
                                 Цаашид Таньтай хамтран ажиллахад бид бэлэн байна. Монгол Түлш ХХК</font></p>
 </div>
-                                   <div class="flag-wrapper">
-                                       <div class="flag flag-icon-background flag-icon-mn">
-                                       
-                                       </div>
-                                   </div>
-                                   <div>
+                                   
                                    <a href="index.php">MN </a>|
                                    <a href="?lang=ru"> RU </a>|
                                    <a href="?lang=en"> EN</a>
                                    
-                                   </div>
+                                  
                                     
                              
                         <form action="index.php" method="post">

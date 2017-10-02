@@ -18,6 +18,7 @@ else {
           type="text/css">
     <link rel="stylesheet" href="css/uikit.min.css" type="text/css"/>
     <link rel="stylesheet" href="css/mongol_tulsh.css" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <div class="coverc uk-background-cover uk-visible@m uk-background-image@m">
@@ -118,7 +119,7 @@ else {
                             }
 
                             ?>
-                            <p class="uk-text-center"><a href="https://www.facebook.com/GSHPMONGOLIA/" uk-icon="icon: facebook"></a>
+                            <p class="uk-text-center"><a href="https://www.facebook.com/GSHPMONGOLIA/" class="fa fa-facebook-official">&nbsp;</a>
                                 <font size="2">Copyright © 2017 Монгол Түлш ХХК. All rights reserved</font></p>
                         </h6>
                     </div>
@@ -223,7 +224,7 @@ else {
                                 }
 
                                 ?>
-                                <p class="uk-text-center"><a href="https://www.facebook.com/GSHPMONGOLIA/" uk-icon="icon: facebook"></a>
+                                <p class="uk-text-center"><a href="https://www.facebook.com/GSHPMONGOLIA/" class="fa fa-facebook-official">&nbsp;</a>
                                 <font size="2">Copyright © 2017 Монгол Түлш ХХК. All rights reserved</font></p>
                             </h6>
                         </div>
@@ -325,7 +326,7 @@ else {
                     }
 
                     ?>
-                    <p class="uk-text-center"><a href="https://www.facebook.com/GSHPMONGOLIA/" uk-icon="icon: facebook"></a>
+                    <p class="uk-text-center"><a href="https://www.facebook.com/GSHPMONGOLIA/" class="fa fa-facebook-official">&nbsp;</a>
                     <font size="2">Copyright © 2017 Монгол Түлш ХХК. All rights reserved</font></p>
                 </h6>
             </div>

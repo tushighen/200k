@@ -18,6 +18,7 @@ else session_start();
           type="text/css">
     <link rel="stylesheet" href="css/uikit.css" type="text/css"/>
     <link rel="stylesheet" href="css/mongol_tulsh.css" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
@@ -53,7 +54,7 @@ else session_start();
                             <!--                            <form action="result.php" method="post">-->
                             <?php include('php/calculatorForm.php'); ?>
                             <?php include('php/calculator.php'); ?>
-                                    <p><a href="https://www.facebook.com/GSHPMONGOLIA/" uk-icon="icon: facebook"></a>
+                                    <p><a href="https://www.facebook.com/GSHPMONGOLIA/" class="fa fa-facebook-official">&nbsp;</a>
                                     <font size="2">Copyright © 2017 Монгол Түлш ХХК. All rights reserved</font></p>
                             <!--                            </form>-->
                         </div>
@@ -92,7 +93,7 @@ else session_start();
                                 <!--                            <form action="result.php" method="post">-->
                                 <?php include('php/calculatorForm.php'); ?>
                                 <?php include('php/calculator.php'); ?>
-                                <p><a href="https://www.facebook.com/GSHPMONGOLIA/" uk-icon="icon: facebook"></a>
+                                <p><a href="https://www.facebook.com/GSHPMONGOLIA/" class="fa fa-facebook-official">&nbsp;</a>
                                 <font size="2">Copyright © 2017 Монгол Түлш ХХК. All rights reserved</font></p>
                                 <!--                            </form>-->
                             </div>
@@ -129,7 +130,7 @@ else session_start();
                     <!--                            <form action="result.php" method="post">-->
                     <?php include('php/calculatorForm.php'); ?>
                     <?php include('php/calculator.php'); ?>
-                    <p><a href="https://www.facebook.com/GSHPMONGOLIA/" uk-icon="icon: facebook"></a>
+                    <p><a href="https://www.facebook.com/GSHPMONGOLIA/" class="fa fa-facebook-official">&nbsp;</a>
                     <font size="2">Copyright © 2017 Монгол Түлш ХХК. All rights reserved</font></p>
                     <!--                            </form>-->
                 </div>
