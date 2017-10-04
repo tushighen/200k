@@ -42,7 +42,7 @@ if (isset($_POST['calcForm'])) {
 
         }
     }
-    if ($allSquare <= 87 || $allSquare > 30410) {
+    if ($allSquare <= 86 || $allSquare > 30410 || $pplNum <= 0 || $allBuild <= 0) {
         echo "<script>alert('$error');</script>";
         echo '<script>window.location.replace("calculator.php");</script>';
     } else {
