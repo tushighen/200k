@@ -32,10 +32,10 @@ if (isset($_POST['calcForm'])) {
 
     /*echo "<script>alert($yesNo);</script>";*/
     $error;
-    if(!isset($_GET['lang'])){
+    if (!isset($_GET['lang'])) {
         $error = "Aлдаа!";
-    } else{
-        if($_GET['lang']== "ru"){
+    } else {
+        if ($_GET['lang'] == "ru") {
             $error = "Ошибка!";
         } else {
             $error = "Error!";
@@ -116,7 +116,7 @@ if (isset($_POST['calcForm'])) {
         $_SESSION['powerHotWater'] = $powerHotWater; //c32
 
         //$constNasosPow = 3.5; //f33
-        $getCOP= mysql_query("select cOP as cop from tableTXT WHERE gunTemp='$neededEner'");
+        $getCOP = mysql_query("select cOP as cop from tableTXT WHERE gunTemp='$neededEner'");
         $row = mysql_fetch_assoc($getCOP);
         $constNasosPow = $row['cop']; //f33
 
@@ -141,7 +141,7 @@ if (isset($_POST['calcForm'])) {
         $_SESSION['setCostMnt'] = $setCostMnt; //c39
 
         $setCostUsd = $setCostMnt * 1000000 / $usdValue; //e39
-        $_SESSION['setCostUsd'] =$setCostUsd ; //e39
+        $_SESSION['setCostUsd'] = $setCostUsd; //e39
 
         $getInstallFee = mysql_query("select payRoll as pay from tableNumbers WHERE Hpgkw = '$neededPwr'");
         $row = mysql_fetch_assoc($getInstallFee);
@@ -187,16 +187,16 @@ if (isset($_POST['calcForm'])) {
             ((($e19 * 1000000) / 3500) * 90 * 12) / 1000000; //c50
 
         $annualCostOfHeat = ($mvtPerMonth * 12 + $warmPerMonth * 8 + $nasosTotCosMonth * 8) * $perPower / 1000; //c51
-        $_SESSION['annualCostOfHeat'] =$annualCostOfHeat / $usdValue * 1000000; //c51
+        $_SESSION['annualCostOfHeat'] = $annualCostOfHeat / $usdValue * 1000000; //c51
 
         $annualTerminalOfHeat = $hotWaterTotalAnnualMnt; //c52
-        $_SESSION['annualTerminalOfHeatUsd'] =$annualTerminalOfHeat / $usdValue * 1000000 ; //c52
+        $_SESSION['annualTerminalOfHeatUsd'] = $annualTerminalOfHeat / $usdValue * 1000000; //c52
 
         $savingEco = $annualCostOfHeat - $annualTerminalOfHeat; //c54
-        $_SESSION['savingEcoUsd'] =$savingEco / $usdValue * 1000000; //c54
+        $_SESSION['savingEcoUsd'] = $savingEco / $usdValue * 1000000; //c54
 
         $repayment = $totalMnt / $savingEco; //c55
-        $_SESSION['repayment'] =$repayment ; //c55
+        $_SESSION['repayment'] = $repayment; //c55
 
 //        header("Location: 200k.php?selected=$type&hotwater=$repayment");
 //        $_SESSION['type'] = $type;

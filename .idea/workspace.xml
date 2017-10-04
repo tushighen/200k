@@ -136,19 +136,19 @@
       <file leaf-file-name="calculator.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/calculator.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="205" column="9" lean-forward="true" selection-start-line="205" selection-start-column="9" selection-end-line="219" selection-end-column="40" />
+            <state relative-caret-position="177">
+              <caret line="195" column="75" lean-forward="true" selection-start-line="195" selection-start-column="75" selection-end-line="195" selection-end-column="75" />
               <folding>
-                <marker date="1507133956000" expanded="true" signature="1551:1606" ph="select coeff... tableMaterial" />
-                <marker date="1507133956000" expanded="true" signature="1723:1775" ph="select mater... tableMaterial" />
-                <marker date="1507133956000" expanded="true" signature="2631:2682" ph="select hpgkw... tableNumbers" />
-                <marker date="1507133956000" expanded="true" signature="2868:2934" ph="select price... tableNumbers" />
-                <marker date="1507133956000" expanded="true" signature="3269:3339" ph="select pcsBo... tableNumbers" />
-                <marker date="1507133956000" expanded="true" signature="3803:3873" ph="select boile... tableNumbers" />
-                <marker date="1507133956000" expanded="true" signature="4341:4387" ph="select COP f... tableTXT" />
-                <marker date="1507133956000" expanded="true" signature="4341:4400" ph="select COP f... tableTXT" />
-                <marker date="1507133956000" expanded="true" signature="4341:4402" ph="select COP f... tableTXT" />
-                <marker date="1507133956000" expanded="true" signature="5640:5706" ph="select payRo... tableNumbers" />
+                <marker date="1507133978000" expanded="true" signature="1557:1612" ph="select coeff... tableMaterial" />
+                <marker date="1507133978000" expanded="true" signature="1729:1781" ph="select mater... tableMaterial" />
+                <marker date="1507133978000" expanded="true" signature="2637:2688" ph="select hpgkw... tableNumbers" />
+                <marker date="1507133978000" expanded="true" signature="2874:2940" ph="select price... tableNumbers" />
+                <marker date="1507133978000" expanded="true" signature="3275:3345" ph="select pcsBo... tableNumbers" />
+                <marker date="1507133978000" expanded="true" signature="3809:3879" ph="select boile... tableNumbers" />
+                <marker date="1507133978000" expanded="true" signature="4348:4394" ph="select COP f... tableTXT" />
+                <marker date="1507133978000" expanded="true" signature="4348:4407" ph="select COP f... tableTXT" />
+                <marker date="1507133978000" expanded="true" signature="4348:4409" ph="select COP f... tableTXT" />
+                <marker date="1507133978000" expanded="true" signature="5647:5713" ph="select payRo... tableNumbers" />
               </folding>
             </state>
           </provider>
@@ -1060,11 +1060,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507133816798</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="asd">
+      <created>1507133963378</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1507133963378</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144834000" />
+    <option name="totallyTimeSpent" value="144975000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2115,19 +2122,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/calculator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="205" column="9" lean-forward="true" selection-start-line="205" selection-start-column="9" selection-end-line="219" selection-end-column="40" />
+        <state relative-caret-position="177">
+          <caret line="195" column="75" lean-forward="true" selection-start-line="195" selection-start-column="75" selection-end-line="195" selection-end-column="75" />
           <folding>
-            <marker date="1507133956000" expanded="true" signature="1551:1606" ph="select coeff... tableMaterial" />
-            <marker date="1507133956000" expanded="true" signature="1723:1775" ph="select mater... tableMaterial" />
-            <marker date="1507133956000" expanded="true" signature="2631:2682" ph="select hpgkw... tableNumbers" />
-            <marker date="1507133956000" expanded="true" signature="2868:2934" ph="select price... tableNumbers" />
-            <marker date="1507133956000" expanded="true" signature="3269:3339" ph="select pcsBo... tableNumbers" />
-            <marker date="1507133956000" expanded="true" signature="3803:3873" ph="select boile... tableNumbers" />
-            <marker date="1507133956000" expanded="true" signature="4341:4387" ph="select COP f... tableTXT" />
-            <marker date="1507133956000" expanded="true" signature="4341:4400" ph="select COP f... tableTXT" />
-            <marker date="1507133956000" expanded="true" signature="4341:4402" ph="select COP f... tableTXT" />
-            <marker date="1507133956000" expanded="true" signature="5640:5706" ph="select payRo... tableNumbers" />
+            <marker date="1507133978000" expanded="true" signature="1557:1612" ph="select coeff... tableMaterial" />
+            <marker date="1507133978000" expanded="true" signature="1729:1781" ph="select mater... tableMaterial" />
+            <marker date="1507133978000" expanded="true" signature="2637:2688" ph="select hpgkw... tableNumbers" />
+            <marker date="1507133978000" expanded="true" signature="2874:2940" ph="select price... tableNumbers" />
+            <marker date="1507133978000" expanded="true" signature="3275:3345" ph="select pcsBo... tableNumbers" />
+            <marker date="1507133978000" expanded="true" signature="3809:3879" ph="select boile... tableNumbers" />
+            <marker date="1507133978000" expanded="true" signature="4348:4394" ph="select COP f... tableTXT" />
+            <marker date="1507133978000" expanded="true" signature="4348:4407" ph="select COP f... tableTXT" />
+            <marker date="1507133978000" expanded="true" signature="4348:4409" ph="select COP f... tableTXT" />
+            <marker date="1507133978000" expanded="true" signature="5647:5713" ph="select payRo... tableNumbers" />
           </folding>
         </state>
       </provider>
