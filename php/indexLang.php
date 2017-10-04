@@ -9,12 +9,12 @@ if (isset($_GET['lang'])) {
 Заявки на инсталляцию в этом году (2017) принимаются до 27 октября.   
 Будем рады дальнейшему плодотворному сотрудничеству команда Монгол Тулш</font></p>
 </div>                     
-                        <a href="index.php">MN </a>|
-                        <a href="?lang=ru"> RU </a>|
-                        <a href="?lang=en"> EN</a>
+                        <a href="index.php"><img style="height: 25px" src="https://lipis.github.io/flag-icon-css/flags/4x3/mn.svg" type="image/svg+xml"></a>&nbsp;&nbsp;
+                        <a href="?lang=ru"><img style="height: 25px" src="https://lipis.github.io/flag-icon-css/flags/4x3/ru.svg"></a>&nbsp;&nbsp;
+                        <a href="?lang=en"><img style="height: 25px" src="https://lipis.github.io/flag-icon-css/flags/4x3/us.svg"></a>
                         
                         <form action="index.php?lang=ru" method="post">
-                            <input type="checkbox" name="age" value="age"><font size="2" style="font-weight: bold">&nbsp;&nbsp;Вы можете ввести, если вы +18</font><br>
+                            <input id="plusAge" type="checkbox" name="age" value="age"><font size="2" style="font-weight: bold"><label for="plusAge">&nbsp;&nbsp;Вы можете ввести, если вы +18</label> </font><br>
                             <button name="req" type="submit" class="uk-button uk-button-primary uk-button-small" style="background-color: #336633">Войти</button>
                             <p><font size="2">Copyright © 2017  Монгол Түлш ХХК. All rights reserved</font></p>
                         </form>
@@ -30,12 +30,12 @@ Applications for installation this year (2017) are accepted until October 27.
 We will be glad to further fruitful cooperation team Mongol Tulsh
 </font></p>
 </div>
-                        <a href="index.php">MN </a>|
-                        <a href="?lang=ru"> RU </a>|
-                        <a href="?lang=en"> EN</a>
+                        <a href="index.php"><img style="height: 25px" src="https://lipis.github.io/flag-icon-css/flags/4x3/mn.svg" type="image/svg+xml"></a>&nbsp;&nbsp;
+                        <a href="?lang=ru"><img style="height: 25px" src="https://lipis.github.io/flag-icon-css/flags/4x3/ru.svg"></a>&nbsp;&nbsp;
+                        <a href="?lang=en"><img style="height: 25px" src="https://lipis.github.io/flag-icon-css/flags/4x3/us.svg"></a>
                         
                         <form action="index.php?lang=en" method="post">
-                            <input type="checkbox" name="age" value="age"><font size="2" style="font-weight: bold">&nbsp;&nbsp;You can enter if you are +18</font><br>
+                            <input id="plusAge" type="checkbox" name="age" value="age"><font size="2" style="font-weight: bold"><label for="plusAge">&nbsp;&nbsp;You can enter if you are +18</label> </font><br>
                             <button name="req" type="submit" class="uk-button uk-button-primary uk-button-small" style="background-color: #336633">Login</button>
                             <p><font size="2">Copyright © 2017  Монгол Түлш ХХК. All rights reserved</font></p>
                         </form>
@@ -60,16 +60,16 @@ else {
                                 Цаашид Таньтай хамтран ажиллахад бид бэлэн байна. Монгол Түлш ХХК</font></p>
 </div>
                                    
-                                   <a href="index.php">MN </a>|
-                                   <a href="?lang=ru"> RU </a>|
-                                   <a href="?lang=en"> EN</a>
+                                   <a href="index.php"><img style="height: 25px" src="https://lipis.github.io/flag-icon-css/flags/4x3/mn.svg" type="image/svg+xml"></a>&nbsp;&nbsp;
+                        <a href="?lang=ru"><img style="height: 25px" src="https://lipis.github.io/flag-icon-css/flags/4x3/ru.svg"></a>&nbsp;&nbsp;
+                        <a href="?lang=en"><img style="height: 25px" src="https://lipis.github.io/flag-icon-css/flags/4x3/us.svg"></a>
                                    
                                   
                                     
                              
                         <form action="index.php" method="post">
                             
-                            <input type="checkbox" name="age" value="age"><font size="2" style="font-weight: bold">&nbsp;&nbsp;+18 нас хүрсэн бол орж болно</font><br>
+                            <input id="plusAge" type="checkbox" name="age" value="age"><font size="2" style="font-weight: bold">&nbsp;<label for="plusAge">&nbsp; +18 нас хүрсэн бол орж болно</label> </font><br>
                             <button name="req" type="submit" class="uk-button uk-button-primary uk-button-small" style="background-color: #336633">Нэвтрэх</button>
                             <p><a href="https://www.facebook.com/GSHPMONGOLIA/" class="fa fa-facebook-official">&nbsp;</a><font size="2">Copyright © 2017  Монгол Түлш ХХК. All rights reserved</font></p>
                         </form>
