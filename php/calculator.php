@@ -203,21 +203,21 @@ if (isset($_POST['calcForm'])) {
 //        header('Location: result.php');
 //        echo '<script>window.location.replace("result.php");</script>';
 
-        echo $nasosTotCosMonth;
-        echo  "<br>";
-        echo $enEv;
-        echo "<br>";
-        echo $warmPerMonth;
-         echo "<br>";
-        echo $mvtPerMonth;
-        echo "<br>";
-        echo $e20;
-        echo "<br>";
-        echo $coff;
-        echo "<br>";
-        echo $yesNo;
-        echo "<br>";
-        echo $hotWaterTotalAnnualMnt ;
+//        echo $nasosTotCosMonth;
+//        echo  "<br>";
+//        echo $enEv;
+//        echo "<br>";
+//        echo $warmPerMonth;
+//         echo "<br>";
+//        echo $mvtPerMonth;
+//        echo "<br>";
+//        echo $e20;
+//        echo "<br>";
+//        echo $coff;
+//        echo "<br>";
+//        echo $yesNo;
+//        echo "<br>";
+//        echo $hotWaterTotalAnnualMnt ;
     }
 }
 ?>
