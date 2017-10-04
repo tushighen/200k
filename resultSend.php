@@ -28,7 +28,7 @@ if (!isset($_GET['lang'])) {
     <div class=\"col col-md-8\">
         <div>
             <div class=\"uk-text-center\">
-                <img src=\"images/logo.png\" style=\"height: 70px\" class=\"uk-text-center\">
+                <img src=\"images/logo.png\" style=\"width: 600px; height: 170px\" class=\"uk-text-center\">
             </div>
         </div>
         <div>

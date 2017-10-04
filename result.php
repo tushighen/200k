@@ -335,6 +335,7 @@ else {
         </div>
     </div>
 </div>
+<?php include('php/count.php'); ?>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="js/uikit.min.js"></script>
 <script src="js/uikit-icons.min.js"></script>

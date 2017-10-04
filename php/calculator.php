@@ -75,8 +75,19 @@ if (isset($_POST['calcForm'])) {
         $nasosTotCosMonth = $enEv / 20 * 24 * 31 / 1000 + $enEv / 40 * $dayWorkTime * 31 / 1000; //c21
         $enEv2 = (integer)$enEv;
         $enEv2_1 = round($enEv2, -1);
-        if ($enEv2_1 > $enEv2)
-            $enEv2_1 -= 10;
+        echo $enEv2_1;
+
+        if ($allSquare > 155) {
+            if ($enEv2_1 > $enEv2)
+                $enEv2_1 -= 10;
+        } else {
+            if ($allSquare >= 87 && $allSquare <= 112)
+                $enEv2_1 = 5;
+            else if ($allSquare >= 113 && $allSquare <=155) {
+                $enEv2_1 = 7;
+            }
+
+        }
 
         //Orange datas start from here!
 
@@ -218,6 +229,9 @@ if (isset($_POST['calcForm'])) {
 //        echo $yesNo;
 //        echo "<br>";
 //        echo $hotWaterTotalAnnualMnt ;
+//        echo $enEv2_1;
+        echo "<br>";
+        echo $enEv2;
     }
 }
 ?>
