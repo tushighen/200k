@@ -12,85 +12,114 @@
     <schema id="6" parent="1" name="performance_schema"/>
     <schema id="7" parent="1" name="phpmyadmin"/>
     <schema id="8" parent="1" name="test"/>
-    <table id="9" parent="2" name="tableMaterial"/>
-    <table id="10" parent="2" name="tableNumbers"/>
-    <column id="11" parent="9" name="id">
+    <schema id="9" parent="1" name="dbSec"/>
+    <schema id="10" parent="1" name="web"/>
+    <table id="11" parent="2" name="tableMaterial"/>
+    <table id="12" parent="2" name="tableNumbers"/>
+    <table id="13" parent="2" name="tableTXT"/>
+    <column id="14" parent="11" name="id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="12" parent="9" name="material">
+    <column id="15" parent="11" name="material">
       <Position>2</Position>
       <DataType>varchar(50)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="13" parent="9" name="coefficient">
+    <column id="16" parent="11" name="coefficient">
       <Position>3</Position>
       <DataType>float|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="14" parent="9" name="kwPerSquareMeter">
+    <column id="17" parent="11" name="kwPerSquareMeter">
       <Position>4</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="15" parent="9" name="PRIMARY">
+    <key id="18" parent="11" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="16" parent="10" name="id">
+    <column id="19" parent="12" name="id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="17" parent="10" name="m2">
+    <column id="20" parent="12" name="m2">
       <Position>2</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="18" parent="10" name="Hpgkw">
+    <column id="21" parent="12" name="Hpgkw">
       <Position>3</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="19" parent="10" name="cost">
+    <column id="22" parent="12" name="cost">
       <Position>4</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="20" parent="10" name="price">
+    <column id="23" parent="12" name="price">
       <Position>5</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="21" parent="10" name="pcsBorHole">
+    <column id="24" parent="12" name="pcsBorHole">
       <Position>6</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="22" parent="10" name="boilerRoom">
+    <column id="25" parent="12" name="boilerRoom">
       <Position>7</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="23" parent="10" name="timingInstallation">
+    <column id="26" parent="12" name="timingInstallation">
       <Position>8</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="24" parent="10" name="payRoll">
+    <column id="27" parent="12" name="payRoll">
       <Position>9</Position>
       <DataType>double|0</DataType>
     </column>
-    <column id="25" parent="10" name="model">
+    <column id="28" parent="12" name="model">
       <Position>10</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="26" parent="10" name="PRIMARY">
+    <key id="29" parent="12" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="30" parent="13" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="31" parent="13" name="gunTemp">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="32" parent="13" name="hudagTemp">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="33" parent="13" name="cOP">
+      <Position>4</Position>
+      <DataType>float|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="34" parent="13" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>

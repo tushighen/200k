@@ -234,7 +234,6 @@ else {
         </div>
     </div>
 </div>
-<
 
 <div class="uk-hidden@m">
     <div class="uk-container">

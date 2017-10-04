@@ -65,6 +65,8 @@ if (isset($_POST['calcForm'])) {
         $warmPerMonth = $e20 / 0.8598 * $coff; //c20
         $spentWaterInaMonth = $pplNum * 31 * 79;  //c18
 
+
+        $e18 = $constOnePersonPerWarm * 3.66;
         $e19 = $spentWaterInaMonth / 1000 * $constHotWaterPower; // Семья из 3 чел. в день 237 л. e19
 
         $mvtPerMonth = $e19 * 1.163; //c19 //true
@@ -110,10 +112,15 @@ if (isset($_POST['calcForm'])) {
         $techRoomEqMnt = $techRoomEqUsd * $usdValue / 1000000; //c31
         $_SESSION['techRoomEqMnt'] = $techRoomEqMnt; //c31
 
-        $powerHotWater = $mvtPerMonth / $constNasosPow; //c32
+        $powerHotWater = $mvtPerMonth / 3.66; //c32
         $_SESSION['powerHotWater'] = $powerHotWater; //c32
 
-        $energyConsume = $neededPwr / $constNasosPow * $dayWorkTime * 30 / 1000; //c33
+        //$constNasosPow = 3.5; //f33
+        $getCOP= mysql_query("select cOP as cop from tableTXT WHERE gunTemp='$neededEner'");
+        $row = mysql_fetch_assoc($getCOP);
+        $constNasosPow = $row['cop']; //f33
+
+        $energyConsume = $neededPwr / $constNasosPow * $dayWorkTime * 31 / 1000; //c33
         $_SESSION['energyConsume'] = $energyConsume; //c33
 
 
@@ -196,7 +203,21 @@ if (isset($_POST['calcForm'])) {
 //        header('Location: result.php');
 //        echo '<script>window.location.replace("result.php");</script>';
 
-
+        echo $nasosTotCosMonth;
+        echo  "<br>";
+        echo $enEv;
+        echo "<br>";
+        echo $warmPerMonth;
+         echo "<br>";
+        echo $mvtPerMonth;
+        echo "<br>";
+        echo $e20;
+        echo "<br>";
+        echo $coff;
+        echo "<br>";
+        echo $yesNo;
+        echo "<br>";
+        echo $hotWaterTotalAnnualMnt ;
     }
 }
 ?>

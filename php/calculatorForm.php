@@ -6,7 +6,7 @@ if (!isset($_GET['lang'])) {
                                     <div class=\"uk-text-left\">Барилгын материал</div>
                                     <select name=\"type\" class=\"uk-select uk-form-small uk-form-success\">
     ";
-include('php/dropdown.php');
+    include('php/dropdown.php');
 
     echo "
     </select>
@@ -43,18 +43,11 @@ include('php/dropdown.php');
                                     </select>
                                 </div>
                                 <div class=\"uk-margin\">
+                                    <div class=\"uk-margin uk-grid-small uk-child-width-auto uk-grid\">
                                     <div class=\"uk-text-center\">Техникийн өрөө *</div>
-                                    <div uk-form-custom=\"target: > * > span:first\">
-                                        <select name=\"yesNo\">
-                                            <option value=\"1\">Байгаа</option>
-                                            <option value=\"0\">Байхгүй</option>
-                                        </select>
-                                        <button class=\"uk-button uk-button-primary uk-button-small \"
-                                                style=\"background-color: #336633\" type=\"button\" tabindex=\"-1\">
-                                            <span></span>
-                                            <span uk-icon=\"icon: chevron-down\"></span>
-                                        </button>
-                                    </div>
+            <label><input class=\"uk-radio uk-button-secondary\" type=\"radio\" name=\"yesNo\" value=\"1\" checked> Байгаа</label>
+            <label><input class=\"uk-radio uk-button-secondary\" type=\"radio\" name=\"yesNo\" value=\"0\"> Байхгүй</label>
+        </div>
                                 </div>
                                 <div class=\"uk-margin\">
                                     <button name=\"calcForm\" type=\"submit\" class=\"uk-button uk-button-primary uk-width-1-1 uk-button-small\"
@@ -64,8 +57,7 @@ include('php/dropdown.php');
                                 </form>
                             
     ";
-}
-else {
+} else {
     if ($_GET['lang'] == "ru") {
         echo "
 <form action='result.php?lang=ru' method='post'>
@@ -109,17 +101,10 @@ else {
                                     </select>
                                 </div>
                                 <div class=\"uk-margin\">
-                                    <div class=\"uk-text-center\">Технический зал *</div>
-                                    <div uk-form-custom=\"target: > * > span:first\">
-                                        <select name=\"yesNo\">
-                                            <option value=\"1\">Является</option>
-                                            <option value=\"0\">Нет</option>
-                                        </select>
-                                        <button class=\"uk-button uk-button-primary uk-button-small \"
-                                                style=\"background-color: #336633\" type=\"button\" tabindex=\"-1\">
-                                            <span></span>
-                                            <span uk-icon=\"icon: chevron-down\"></span>
-                                        </button>
+                                    <div class=\"uk-margin uk-grid-small uk-child-width-auto uk-grid\">
+                                        <div class=\"uk-text-center\">Техникийн өрөө *</div>
+                                        <label><input class=\"uk-radio uk-button-secondary\" type=\"radio\" name=\"yesNo\" value=\"1\" checked> Да</label>
+                                        <label><input class=\"uk-radio uk-button-secondary\" type=\"radio\" name=\"yesNo\" value=\"0\"> Нет</label>
                                     </div>
                                 </div>
                                 <div class=\"uk-margin\">
@@ -130,8 +115,7 @@ else {
                                 </form>
                             
         ";
-    }
-    else {
+    } else {
         echo "
 <form action='result.php?lang=en' method='post'>
                                 <div>
@@ -174,17 +158,10 @@ else {
                                     </select>
                                 </div>
                                 <div class=\"uk-margin\">
-                                    <div class=\"uk-text-center\">Tech room *</div>
-                                    <div uk-form-custom=\"target: > * > span:first\">
-                                        <select name=\"yesNo\">
-                                            <option value=\"1\">Yes</option>
-                                            <option value=\"0\">No</option>
-                                        </select>
-                                        <button class=\"uk-button uk-button-primary uk-button-small \"
-                                                style=\"background-color: #336633\" type=\"button\" tabindex=\"-1\">
-                                            <span></span>
-                                            <span uk-icon=\"icon: chevron-down\"></span>
-                                        </button>
+                                    <div class=\"uk-margin uk-grid-small uk-child-width-auto uk-grid\">
+                                        <div class=\"uk-text-center\">Техникийн өрөө *</div>
+                                        <label><input class=\"uk-radio uk-button-secondary\" type=\"radio\" name=\"yesNo\" value=\"1\" checked> Yes</label>
+                                        <label><input class=\"uk-radio uk-button-secondary\" type=\"radio\" name=\"yesNo\" value=\"0\"> No</label>
                                     </div>
                                 </div>
                                 <div class=\"uk-margin\">
