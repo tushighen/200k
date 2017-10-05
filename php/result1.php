@@ -1,4 +1,8 @@
 <?php
+$id = $_GET['id'];
+$sql = mysql_query("SELECT * FROM tableResult2 WHERE id = $id");
+$row = mysql_fetch_object($sql);
+
 $ext1;
 $ext2 = "USD";
 $ext3;
@@ -8,16 +12,16 @@ $ext6;
 $ext7;
 
 $j;
-$j1 = $_SESSION['setCostUsd']; //e39
+$j1 = $row->setCostUsd; //e39
 $k;
-$k1 = $_SESSION['installFeeUsd']; //e40
+$k1 = $row->installFeeUsd; //e40
 $l;
-$l1 = $_SESSION['totalUsd']; //e41
+$l1 = $row->totalUsd; //e41
 $m;
-$m1 = $_SESSION['getInstallTotalTime']; //c42
+$m1 = $row->getInstallTotalTime; //c42
 $n;
-$n1 = $_SESSION['connectedPwrObj1']; //c43
-$n2 = $_SESSION['connectedPwrObj2']; //e43
+$n1 = $row->connectedPwrObj1; //c43
+$n2 = $row->connectedPwrObj2; //e43
 
 $j1= round($j1,1);
 $k1= round($k1,1);

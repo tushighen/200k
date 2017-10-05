@@ -1,12 +1,16 @@
 <?php include('php/dbConnection.php'); ?>
 <?php include('php/calculator.php'); ?>
 <?php
-if (!isset($_SESSION))
-    echo '<script>window.location.replace("calculator.php");</script>';
-else {
-
-}
+    if (!isset($_GET['id']))
+        echo "<script>window.location.replace('calculator.php');</script>";
 ?>
+<?php
+//if (!isset($_SESSION))
+//    echo '<script>window.location.replace("calculator.php");</script>';
+//else {
+//
+//}
+//?>
 <!DOCTYPE html>
 <html lang="en">
 

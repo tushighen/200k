@@ -4,10 +4,11 @@ $constOnePersonPerWarm = 0.212; //c13
 $constHotWaterPower = 0.0467; //c14
 $constColdWaterFromTheEarth = 5; //c16
 $constDHWWater = 50; //c17
-
-$constNasosPow = 3.5; //f33
+//5
 
 if (isset($_POST['calcForm'])) {
+
+    $data[] = "";
 
     $allBuild = $_POST['allBuild']; //c7
     $_SESSION['allBuild'] = $allBuild; //c7
@@ -29,6 +30,7 @@ if (isset($_POST['calcForm'])) {
 
 //    $usdValue = $_POST['usdValue']; //e4
     $usdValue = 2450;
+    //7
 
     /*echo "<script>alert($yesNo);</script>";*/
     $error;
@@ -56,6 +58,8 @@ if (isset($_POST['calcForm'])) {
         $row = mysql_fetch_assoc($getCoff);
         $coff = $row['coff'];
 
+//        echo "$type";
+//        echo "<br>";
 
         $getMate = mysql_query("select material as mate from tableMaterial WHERE id=$type");
         $row = mysql_fetch_assoc($getMate);
@@ -75,7 +79,7 @@ if (isset($_POST['calcForm'])) {
         $nasosTotCosMonth = $enEv / 20 * 24 * 31 / 1000 + $enEv / 40 * $dayWorkTime * 31 / 1000; //c21
         $enEv2 = (integer)$enEv;
         $enEv2_1 = round($enEv2, -1);
-        echo $enEv2_1;
+//        echo $enEv2_1;
 
         if ($allSquare > 155) {
             if ($enEv2_1 > $enEv2)
@@ -83,7 +87,7 @@ if (isset($_POST['calcForm'])) {
         } else {
             if ($allSquare >= 87 && $allSquare <= 112)
                 $enEv2_1 = 5;
-            else if ($allSquare >= 113 && $allSquare <=155) {
+            else if ($allSquare >= 113 && $allSquare <= 155) {
                 $enEv2_1 = 7;
             }
 
@@ -199,20 +203,68 @@ if (isset($_POST['calcForm'])) {
 
         $annualCostOfHeat = ($mvtPerMonth * 12 + $warmPerMonth * 8 + $nasosTotCosMonth * 8) * $perPower / 1000; //c51
         $_SESSION['annualCostOfHeat'] = $annualCostOfHeat / $usdValue * 1000000; //c51
+        $annualCostOfHeat1 = $annualCostOfHeat / $usdValue * 1000000; //c51
 
         $annualTerminalOfHeat = $hotWaterTotalAnnualMnt; //c52
         $_SESSION['annualTerminalOfHeatUsd'] = $annualTerminalOfHeat / $usdValue * 1000000; //c52
+        $annualTerminalOfHeat1 = $annualTerminalOfHeat / $usdValue * 1000000; //c52
 
         $savingEco = $annualCostOfHeat - $annualTerminalOfHeat; //c54
         $_SESSION['savingEcoUsd'] = $savingEco / $usdValue * 1000000; //c54
 
-        $repayment = $totalMnt / $savingEco; //c55
-        $_SESSION['repayment'] = $repayment; //c55
+        $repayment1 = $totalMnt / $savingEco; //c55
+        $_SESSION['repayment'] = $repayment1; //c55
 
+        $savingEco1 = $savingEco / $usdValue * 1000000; //c54
+
+
+        $data[1] = $mate;
+        $data[2] = $allSquare;
+        $data[3] = $pplNum;
+        $data[4] = $allBuild;
+        $data[5] = $neededEner;
+        $data[6] = $yesNo;
+        $data[7] = $neededPwr;
+        $data[8] = $heatPumpCost;
+        $data[9] = $neededHoleNum;
+        $data[10] = $holeTotalCostUsd;
+        $data[11] = $techRoomEqUsd;
+        $data[12] = $powerHotWater;
+        $data[13] = $energyConsume;
+        $data[14] = $hotWaterTotalAnnualUsd;
+        $data[15] = $energyConsumption;
+        $data[16] = $setCostUsd;
+        $data[17] = $installFeeUsd;
+        $data[18] = $totalUsd;
+        $data[19] = $getInstallTotalTime;
+        $data[20] = $connectedPwrObj1;
+        $data[21] = $connectedPwrObj2;
+        $data[22] = $annualCostOfHeat1;
+        $data[23] = $annualTerminalOfHeat1;
+        $data[24] = $savingEco1;
+        $data[25] = $repayment1;
+
+        mysql_query("INSERT INTO tableResult1 VALUES (NULL,'$data[1]','$data[2]','$data[3]'
+            ,'$data[4]','$data[5]','$data[6]','$data[7]','$data[8]','$data[9]'
+            ,'$data[10]','$data[11]','$data[12]','$data[13]','$data[14]','$data[15]')");
+        mysql_query("INSERT INTO tableResult2 VALUES (NULL,'$data[16]','$data[17]','$data[18]','$data[19]','$data[20]','$data[21]')");
+        mysql_query("INSERT INTO tableResult3 VALUES (NULL ,$data[22],'$data[23]','$data[24]','$data[25]')");
+
+
+        $sql = mysql_query("select max(id) as id from tableResult1");
+        $row = mysql_fetch_object($sql);
+        $a = $row->id;
 //        header("Location: 200k.php?selected=$type&hotwater=$repayment");
 //        $_SESSION['type'] = $type;
-//        header('Location: result.php');
-//        echo '<script>window.location.replace("result.php");</script>';
+//        header("Location: result.php?id=$a");
+//        echo $a;
+        if (!isset($_GET['lang']))
+            echo "<script>window.location.replace('result.php?id=$row->id');</script>";
+        else {
+            if ($_GET['lang'] == "en")
+                echo "<script>window.location.replace('result.php?lang=en&id=$row->id');</script>";
+            else echo "<script>window.location.replace('result.php?lang=ru&id=$row->id');</script>";
+        }
 
 //        echo $nasosTotCosMonth;
 //        echo  "<br>";
@@ -231,7 +283,11 @@ if (isset($_POST['calcForm'])) {
 //        echo $hotWaterTotalAnnualMnt ;
 //        echo $enEv2_1;
         echo "<br>";
-        echo $enEv2;
+        echo $repayment1;
+//        echo "<br>";
+//        echo $data[2];
+//        echo "<br>";
+//        echo $coff;
     }
 }
 ?>

@@ -1,4 +1,8 @@
 <?php
+$id = $_GET['id'];
+$sql = mysql_query("SELECT * FROM tableResult3 WHERE id = $id");
+$row = mysql_fetch_object($sql);
+
 $ext1;
 $ext2 = "USD";
 $ext3;
@@ -8,13 +12,13 @@ $ext6;
 $ext7;
 
 $o;
-$o1 = $_SESSION['annualCostOfHeat']; //c51
+$o1 = $row->annualCostOfHeat; //c51
 $s;
-$s1 = $_SESSION['annualTerminalOfHeatUsd']; //c52
+$s1 = $row->annualTerminalOfHeatUsd; //c52
 $r;
-$r1 = $_SESSION['savingEcoUsd']; //c53
+$r1 = $row->savingEcoUsd; //c53
 $p;
-$p1 = $_SESSION['repayment']; //c54
+$p1 = $row->repayment; //c54
 
 $o1=round($o1,1);
 $s1=round($s1,1);

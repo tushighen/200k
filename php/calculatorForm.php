@@ -1,7 +1,7 @@
 <?php
 if (!isset($_GET['lang'])) {
     echo "
-<form action='result.php' method='post'>
+<form action='calculator.php' method='post'>
                                 <div>
                                     <div class=\"uk-text-left\">Барилгын материал</div>
                                     <select name=\"type\" class=\"uk-select uk-form-small uk-form-success\">
@@ -102,7 +102,7 @@ if (!isset($_GET['lang'])) {
                                 </div>
                                 <div class=\"uk-margin\">
                                     <div class=\"uk-margin uk-grid-small uk-child-width-auto uk-grid\">
-                                        <div class=\"uk-text-center\">Техникийн өрөө *</div>
+                                        <div class=\"uk-text-center\">Технический зал *</div>
                                         <label><input class=\"uk-radio uk-button-secondary\" type=\"radio\" name=\"yesNo\" value=\"1\" checked> Да</label>
                                         <label><input class=\"uk-radio uk-button-secondary\" type=\"radio\" name=\"yesNo\" value=\"0\"> Нет</label>
                                     </div>
@@ -159,7 +159,7 @@ if (!isset($_GET['lang'])) {
                                 </div>
                                 <div class=\"uk-margin\">
                                     <div class=\"uk-margin uk-grid-small uk-child-width-auto uk-grid\">
-                                        <div class=\"uk-text-center\">Техникийн өрөө *</div>
+                                        <div class=\"uk-text-center\">Technical room *</div>
                                         <label><input class=\"uk-radio uk-button-secondary\" type=\"radio\" name=\"yesNo\" value=\"1\" checked> Yes</label>
                                         <label><input class=\"uk-radio uk-button-secondary\" type=\"radio\" name=\"yesNo\" value=\"0\"> No</label>
                                     </div>

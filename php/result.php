@@ -1,10 +1,15 @@
 <?php
-$aa = $_SESSION['mate']; //f7
-$ab = $_SESSION['allSquare']; //c8
-$ac = $_SESSION['pplNum']; //c9
-$ad = $_SESSION['allBuild']; //c7
-$ae = $_SESSION['neededEner']; //c22
-$af = $_SESSION['yesNo']; //c23
+$id = $_GET['id'];
+$sql = mysql_query("SELECT * FROM tableResult1 WHERE id = $id");
+$row = mysql_fetch_object($sql);
+
+
+$aa = $row->mate; //f7
+$ab = $row->allSquare; //c8
+$ac = $row->pplNum; //c9
+$ad = $row->allBuild; //c7
+$ae = $row->neededEner; //c22
+$af = $row->yesNo; //c23
 $ext1;
 $ext2 = "USD";
 $ext3;
@@ -15,23 +20,23 @@ $ext7;
 
 
 $a;
-$a1 = $_SESSION['neededPwr']; //c27
+$a1 = $row->neededPwr; //c27
 $b;
-$b1 = $_SESSION['heatPumpCost']; //e28
+$b1 = $row->heatPumpCost; //e28
 $c;
-$c1 = $_SESSION['neededHoleNum']; //c29
+$c1 = $row->neededHoleNum; //c29
 $d;
-$d1 = $_SESSION['holeTotalCostUsd']; //e30
+$d1 = $row->holeTotalCostUsd; //e30
 $e;
-$e1 = $_SESSION['techRoomEqUsd']; //e31
+$e1 = $row->techRoomEqUsd; //e31
 $f;
-$f1 = $_SESSION['powerHotWater']; //c32
+$f1 = $row->powerHotWater; //c32
 $g;
-$g1 = $_SESSION['energyConsume']; //c33
+$g1 = $row->energyConsume; //c33
 $h;
-$h1 = $_SESSION['hotWaterTotalAnnualUsd']; //e34
+$h1 = $row->hotWaterTotalAnnualUsd; //e34
 $i;
-$i1 = $_SESSION['energyConsumption']; //c35
+$i1 = $row->energyConsumption; //c35
 
 $a1=round($a1,1);
 $b1=round($b1,1);
