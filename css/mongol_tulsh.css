@@ -29,11 +29,12 @@ h6 {
 }
 
 .cover {
-    padding: 10px;
-    padding-bottom: 200px;
-    /*padding-bottom: 200px;*/
-    background-image: url("../images/index.png");
-    /*height: 100vh;*/
+    padding: 10px 10px 120px 0;
+    background: no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .cover a {
@@ -48,11 +49,12 @@ h6 {
 }
 
 .coverb {
-    padding: 10px;
-    padding-bottom: 200px;
-    /*padding-bottom: 200px;*/
-    background-image: url("../images/calculate.png");
-    /*height: 100vh;*/
+    padding: 10px 10px 120px 0;
+    background: no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .coverb a {
@@ -67,11 +69,12 @@ h6 {
 }
 
 .coverc {
-    padding: 10px;
-    padding-bottom: 200px;
-    /*padding-bottom: 200px;*/
-    background-image: url("../images/result.png");
-    /*height: 100vh;*/
+    padding: 10px 10px 120px 0;
+    background: no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .coverc a {

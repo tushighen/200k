@@ -25,7 +25,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-<div class="coverc uk-background-cover uk-visible@m uk-background-image@m">
+<?php
+if (!isset($_GET['lang']))
+    $bg = "./images/result_MN.jpg";
+else {
+    if ($_GET['lang'] == "ru")
+        $bg = "./images/result_RU.jpg";
+    else $bg = "./images/result_ENG.jpg";
+}
+?>
+<div class="coverc uk-background-cover uk-visible@m uk-background-image@m" style="background-image: url('<?php echo $bg?>')">
     <div class="">
         <div class="uk-grid-large uk-flex-middle uk-grid-margin-large uk-grid" uk-grid>
             <div class="uk-width-1-6@m">

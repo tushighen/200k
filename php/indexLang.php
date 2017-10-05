@@ -11,7 +11,7 @@ if (isset($_GET['lang'])) {
 </div>                     
                         <a href="index.php"><img style="height: 25px" src="https://lipis.github.io/flag-icon-css/flags/4x3/mn.svg" type="image/svg+xml"></a>&nbsp;&nbsp;
                         <a href="?lang=ru"><img style="height: 25px" src="https://lipis.github.io/flag-icon-css/flags/4x3/ru.svg"></a>&nbsp;&nbsp;
-                        <a href="?lang=en"><img style="height: 25px" src="https://lipis.github.io/flag-icon-css/flags/4x3/us.svg"></a>
+                        <a href="?lang=en"><img style="height: 25px" src="https://lipis.github.io/flag-icon-css/flags/4x3/gb.svg"></a>
                         
                         <form action="index.php?lang=ru" method="post">
                             <input id="plusAge" type="checkbox" name="age" value="age"><font size="2" style="font-weight: bold"><label for="plusAge">&nbsp;&nbsp;Вы можете ввести, если вы +18</label> </font><br>
@@ -32,7 +32,7 @@ We will be glad to further fruitful cooperation team Mongol Tulsh
 </div>
                         <a href="index.php"><img style="height: 25px" src="https://lipis.github.io/flag-icon-css/flags/4x3/mn.svg" type="image/svg+xml"></a>&nbsp;&nbsp;
                         <a href="?lang=ru"><img style="height: 25px" src="https://lipis.github.io/flag-icon-css/flags/4x3/ru.svg"></a>&nbsp;&nbsp;
-                        <a href="?lang=en"><img style="height: 25px" src="https://lipis.github.io/flag-icon-css/flags/4x3/us.svg"></a>
+                        <a href="?lang=en"><img style="height: 25px" src="https://lipis.github.io/flag-icon-css/flags/4x3/gb.svg"></a>
                         
                         <form action="index.php?lang=en" method="post">
                             <input id="plusAge" type="checkbox" name="age" value="age"><font size="2" style="font-weight: bold"><label for="plusAge">&nbsp;&nbsp;You can enter if you are +18</label> </font><br>
@@ -62,7 +62,7 @@ else {
                                    
                                    <a href="index.php"><img style="height: 25px" src="https://lipis.github.io/flag-icon-css/flags/4x3/mn.svg" type="image/svg+xml"></a>&nbsp;&nbsp;
                         <a href="?lang=ru"><img style="height: 25px" src="https://lipis.github.io/flag-icon-css/flags/4x3/ru.svg"></a>&nbsp;&nbsp;
-                        <a href="?lang=en"><img style="height: 25px" src="https://lipis.github.io/flag-icon-css/flags/4x3/us.svg"></a>
+                        <a href="?lang=en"><img style="height: 25px" src="https://lipis.github.io/flag-icon-css/flags/4x3/gb.svg"></a>
                                    
                                   
                                     

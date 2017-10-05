@@ -12,9 +12,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-
+<?php
+if (!isset($_GET['lang']))
+    $bg = "./images/index_MN.jpg";
+else {
+    if ($_GET['lang'] == "ru")
+        $bg = "./images/index_RU.jpg";
+    else $bg = "./images/index_ENG.jpg";
+}
+?>
 <div class="uk-visible@l">
-    <div class="cover uk-background-cover uk-background-image@m">
+    <div class="cover uk-background-cover uk-background-image@m" style="background-image: url('<?php echo $bg?>')">
         <div class="">
             <div class="uk-grid-large uk-flex-middle uk-grid-margin-large uk-grid" uk-grid>
                 <div class="uk-width-1-6@m">
