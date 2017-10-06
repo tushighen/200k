@@ -32,14 +32,13 @@ if (!isset($_GET['lang'])) {
             </div>
         </div>
         <div>
-        <p class='uk-text-bold'>________ оны _____ сарын _____&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;№	_______&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Улаанбаатар хот</p>
-        <div class=\"uk-text-center\">
+        <p class='uk-text-bold'>________ оны _____ сарын _____&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;№	_______&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Улаанбаатар хот</p>
+        <div class=\"uk--center\">
             <h4 class=\"uk-text-bold\">
                 Хүндэт Харилцагч Танаа,
             </h4>
-        </div>
-        <p>   Монгол Түлш ХХК-нд хандсан Танд баярлалаа, танай объектын дулаан хангамжийн асуудлыг дэлгэрэнгүй хэлэлцхэд бид бэлэн. Ерөнхий төсвийн урьдчилсан тооцоололтой байх үүднээс бид Танд энэхүү захидлыг илгэжж байна.</p>
+        <text/div>
+        <p>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Монгол Түлш ХХК-нд хандсан Танд баярлалаа, танай объектын дулаан хангамжийн асуудлыг дэлгэрэнгүй хэлэлцхэд бид бэлэн. Ерөнхий төсвийн урьдчилсан тооцоололтой байх үүднээс бид Танд энэхүү захидлыг илгэжж байна.</p>
 
         <p>Тооцоолол хийх үзүүлэлтүүд:</p>
         <ul>
@@ -66,7 +65,7 @@ if (!isset($_GET['lang'])) {
             Хүндэтгэсэн,<br><br>
 
 
-        <blockquote>Гүйцэтгэх Захирал: 					М. Уламбат</blockquote>
+        <blockquote>Гүйцэтгэх Захирал: 		<img src=\"images/signature.jpg\" alt=\"signDirec\" style=\"width:304px;height:228px;\"> 			М. Уламбат</blockquote>
         </p>
             <div class=\"uk-text-right\" style=\"color: grey\">
                 ХОЛБОГДОХ ХАЯГ, УТАС<br>
@@ -92,14 +91,13 @@ if (!isset($_GET['lang'])) {
         </div>
     <div>
     
-        <p class='uk-text-bold'>________ год _____ месяц _____&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;№	_______&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;г. Улаанбаатар</p>
+        <p class='uk-text-bold'>________ год _____ месяц _____&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;№	_______&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; г. Улаанбаатар</p>
         <div class=\"uk-text-center\">
             <h4 class=\"uk-text-bold\">
                 Уважаемый Клиент,
             </h4>
         </div>
-        <p>   От лица компания Монгол Тулш хотел бы поблагодарить Вас за обращение в нашу компанию, мы готовы обсудить детали проекта по теплоснабжению Вашего объекта. В целях предварительного понимания бюджета высылаем Вам коммерческое предложение:
+        <p>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;От лица компания Монгол Тулш хотел бы поблагодарить Вас за обращение в нашу компанию, мы готовы обсудить детали проекта по теплоснабжению Вашего объекта. В целях предварительного понимания бюджета высылаем Вам коммерческое предложение:
         </p>
         <p>Вводные данные следующие:
         </p>
@@ -127,7 +125,7 @@ if (!isset($_GET['lang'])) {
           
 
 
-        <blockquote>Исполнительный директор: 					Уламбат М.</blockquote>
+        <blockquote>Исполнительный директор: <img src=\"images/signature.jpg\" alt=\"signDirec\" style=\"width:304px;height:228px;\"> 					Уламбат М.</blockquote>
         </p>
             <div class=\"uk-text-right\" style=\"color: grey\">
                 <b>АДДРЕСС И КОНТАКТНЫЕ ДЕТАЛИ</b><br>
@@ -151,14 +149,13 @@ if (!isset($_GET['lang'])) {
             </div>
         </div>
         <div>
-            <p class=\"uk-text-bold\">_______ year _____ month &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#_______&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ulaanbaatar</p>
+            <p class=\"uk-text-bold\">_______ year _____ month &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#_______&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ulaanbaatar</p>
             <div class=\"uk-text-center\">
                 <h4 class='uk-text-bold'>
                     Dear Customer,
                 </h4>
             </div>        
-            <p>  On behalf of the company, Mongol Tulsh would like to thank you for contacting our company, we are ready to discuss the details of the project for the heat supply of your house. For the preliminary understanding of the budget we send you a commercial offer.</p>
+            <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; On behalf of the company, Mongol Tulsh would like to thank you for contacting our company, we are ready to discuss the details of the project for the heat supply of your house. For the preliminary understanding of the budget we send you a commercial offer.</p>
     
             <p class='uk-text-bold'>The input data is as follows:</p>
             <ul>
@@ -186,7 +183,7 @@ CEPHEUS _____ARCTIC ____________ tugrik per month</li>
                 
     
     
-            <blockquote>Executive Director: <img src=\"images/signature.jpg\" alt=\"Mountain View\" style=\"width:304px;height:228px;\"> 					Ulambat. M</blockquote>
+            <blockquote>Executive Director: <img src=\"images/signature.jpg\" alt=\"signDirec\" style=\"width:304px;height:228px;\"> 					Ulambat. M</blockquote>
             </p>
                 <div class=\"uk-text-right\" style=\"color: grey\">
                     <b>ADDRESS AND CONTACT DETAILS</b><br>

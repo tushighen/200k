@@ -1,9 +1,16 @@
 <?php include('php/dbConnection.php') ?>
 
 <?php
-if (isset($_SESSION))
+//session_destroy();
+if (isset($_SESSION)) {
     session_destroy();
-else session_start();
+
+}
+else {
+    @ob_start();
+   // session_start();
+
+}
 ?>
 <?php
 //session_start();

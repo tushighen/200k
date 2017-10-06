@@ -20,7 +20,7 @@
     <title>MONGOL TULSH</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300;subset=cyrillic-ext" rel="stylesheet"
           type="text/css">
-    <link rel="stylesheet" href="css/uikit.min.css" type="text/css"/>
+    <link rel="stylesheet" href="css/uikit.css" type="text/css"/>
     <link rel="stylesheet" href="css/mongol_tulsh.css" type="text/css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -132,6 +132,13 @@ else {
                             }
 
                             ?>
+                            <div class="uk-text-right uk-margin">
+                                <form method="post" action="send.php?id=<?php echo $_GET['id']?>">
+                                    <?php include('send.php');?>
+                                    <input type="text" name="email" class="uk-input uk-form-small uk-form-success" placeholder="Файлаар авах бол Мэйл хаягаа оруулна уу!">
+                                    <button type="submit" name="mailSend" class="uk-button uk-button-primary uk-button-small uk-margin" style="background-color: #336633">Илгээх</button>
+                                </form>
+                            </div>
                             <p class="uk-text-center"><a href="https://www.facebook.com/GSHPMONGOLIA/" class="fa fa-facebook-official">&nbsp;</a>
                                 <font size="2">Copyright © 2017 Монгол Түлш ХХК. All rights reserved</font></p>
                         </h6>
@@ -237,6 +244,7 @@ else {
                                 }
 
                                 ?>
+
                                 <p class="uk-text-center"><a href="https://www.facebook.com/GSHPMONGOLIA/" class="fa fa-facebook-official">&nbsp;</a>
                                 <font size="2">Copyright © 2017 Монгол Түлш ХХК. All rights reserved</font></p>
                             </h6>
@@ -247,7 +255,6 @@ else {
         </div>
     </div>
 </div>
-
 <div class="uk-hidden@m">
     <div class="uk-container">
         <div class="uk-margin uk-text-center uk-scrollspy-inview uk-animation-slide-right"
@@ -348,7 +355,11 @@ else {
         </div>
     </div>
 </div>
-<?php include('php/count.php'); ?>
+<?php
+if (isset($_GET['mail']))
+    echo "<script>alert('Mail sent!');</script>";
+?>
+<?php include('phpToWord.php'); ?>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="js/uikit.min.js"></script>
 <script src="js/uikit-icons.min.js"></script>
